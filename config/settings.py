@@ -15,7 +15,7 @@ if not OPENAI_API_KEY:
         "OPENAI_API_KEY not found. Please add it to the .env file."
     )
 
-AGRI_URL = "https://agritech.tnau.ac.in/expert_system/paddy/Schemes.html"
+AGRI_URL = "https://www.tnagrisnet.tn.gov.in"
 
 EMBEDDING_MODEL = "text-embedding-3-small"
 LLM_MODEL = "gpt-4o-mini"
