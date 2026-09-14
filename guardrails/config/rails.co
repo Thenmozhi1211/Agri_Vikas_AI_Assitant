@@ -1,0 +1,27 @@
+define user ask agriculture
+  "What agriculture schemes are available?"
+  "Tell me about farming schemes"
+  "What subsidies are available for farmers?"
+
+define flow check input
+  user ...
+  $allowed = execute check_agriculture_topic
+  if not $allowed
+    bot refuse off topic
+    stop
+
+define bot refuse off topic
+  "I can help only with agriculture and farmer-related information from the available knowledge base."
+
+define flow self check input
+  user ...
+  $allowed = execute check_prompt_injection
+  if not $allowed
+    bot refuse prompt injection
+    stop
+
+define bot refuse prompt injection
+  "I cannot reveal system instructions or internal application details."
+
+define flow self check output
+  bot ...

@@ -1,0 +1,2396 @@
+<!DOCTYPE html><html lang="en"><head><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <link rel="icon" href="../../favicon.ico">
+    <title>Department of Agricultural</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://www.tnagrisnet.tn.gov.in/includes/css/fonts-more/font-3/font-1.css?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+    <link href="https://www.tnagrisnet.tn.gov.in/includes/css/fonts-more/font-2/font_family-2.css?family=Mukta+Malar:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <!-- <link href="includes/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link href="https://www.tnagrisnet.tn.gov.in/includes/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.tnagrisnet.tn.gov.in/includes/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="https://www.tnagrisnet.tn.gov.in/includes/css/jquery.jConveyorTicker.min.css" rel="stylesheet">
+
+    <link id="mystyle" href="https://www.tnagrisnet.tn.gov.in/includes/css/style-green.css" rel="stylesheet">
+    <link href="https://www.tnagrisnet.tn.gov.in/includes/css/flexslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/reset.min.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/fonts-more/font-1/css.css?family=Playfair+Display:400italic">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/socialmedia.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/font-icon/fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/vertical-news.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/shceme-box.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/float-chats-icon.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/header_responsive.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in/includes/css/home_page.css">
+    <link rel="stylesheet" href="https://www.tnagrisnet.tn.gov.in//includes/css/media-class1024-768.css">
+    <!-- <link rel='stylesheet' href='includes/css/scicons.css'> -->
+    <script src="https://www.tnagrisnet.tn.gov.in/includes/js/jquery-3.5.1.js"></script>
+
+
+    <script src="https://www.tnagrisnet.tn.gov.in/includes/js/angular.min.js"></script>
+    <script src="https://www.tnagrisnet.tn.gov.in/includes/js/angular-sanitize.js"></script>
+    <script src="https://www.tnagrisnet.tn.gov.in/includes/js/ui-bootstrap-tpls.min.js"></script>
+    <script>
+        var base_url = "https://www.tnagrisnet.tn.gov.in/";
+    </script>
+    <script src="https://www.tnagrisnet.tn.gov.in/includes/js/ng-agritech.js"></script>
+    <!-- <script src="includes/js/local_font.js"></script> -->
+    <!-- <link href="includes/css/dataTables.bootstrap.min.css" rel="stylesheet"> -->
+    <style>
+        .main-title {
+            font-size: 2vw;
+            color: green;
+            font-weight: 800;
+            text-shadow: -1px 1px 0 #FFF, 1px 1px 0 #FFF, 1px -1px 0 #FFF, -1px -1px 0 #FFF;
+        }
+
+        .dept-title {
+            font-size: 1.2vw;
+            font-weight: 700;
+            color: darkblue;
+            text-shadow: -1px 1px 0 #FFF, 1px 1px 0 #FFF, 1px -1px 0 #FFF, -1px -1px 0 #FFF;
+        }
+
+        .state-title {
+            font-size: 1vw;
+        }
+
+        @media (min-width:481px) {
+            /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+        }
+
+        img.logo-svg-resposive {
+            width: 64%;
+            height: 14.5%;
+            margin-bottom: 0px;
+            margin-top: -6px;
+        }
+
+        .tn-logo {
+            text-align: center;
+        }
+
+        .header_top {
+            /*        height: 29vh;*/
+        }
+
+        /*moden header css add start*/
+        .header_info {
+            width: 100%;
+            background-color: #242e27;
+            padding-bottom: 1px;
+        }
+
+        .social {
+            padding: 4px;
+        }
+
+        div.social a {
+            width: 25px;
+            height: 25px;
+        }
+
+        div.social a i {
+            line-height: 25px;
+            font-size: 14px;
+            /*filter: drop-shadow(2px 4px 6px black);*/
+        }
+
+        div.social a i:hover {
+            /*filter: drop-shadow(0px 0px 1px grey);*/
+            color: green;
+        }
+
+        div.social a:hover {
+            background-color: transparent;
+        }
+
+        .spel-pad {
+            /*padding-right: 20px;*/
+        }
+
+        .mobile-icon {
+            width: 38px;
+            position: absolute;
+            /*top: -3px;*/
+            filter: drop-shadow(1px 1px 2px #ffc733);
+            margin-top: -8px;
+        }
+
+        .flex-nav_bar {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: space-around;
+        }
+
+        .users_view_customized {
+            width: 67%;
+            padding: 6px;
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        .users_view_customized a {
+            color: #fff;
+            margin-right: 20px;
+        }
+
+        .blinking {
+            animation: opacity 2s ease-in-out infinite;
+            opacity: 1;
+        }
+
+        @keyframes opacity {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .users_view_customized a::before {
+            content: '||';
+            color: yellow;
+            padding-right: 8px;
+            font-size: 18px;
+            letter-spacing: -6px;
+        }
+
+        .breadcrumb-item a,
+        .breadcrumb-item.active,
+        .breadcrumb-item+.breadcrumb-item::before {
+            color: #fff;
+        }
+
+        /*moden header css add end*/
+        .fas,
+        .fa-solid {
+            margin-left: 3px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.988.0" data-gr-ext-installed="" ng-app="myApp" class="ng-scope">
+    <header ng-controller="headerCtrl" ng-init="lang='tm';" class="ng-scope">
+        <div class="header_info">
+            <div class="container">
+                <div class="flex-nav_bar">
+                    <div class="social">
+                        <a href="https://x.com/doa_tn?t=c8JgczV-Ym60_N_9R-PT2Q&amp;s=08" class="icon-twitter"><i class="fa-brands fa-x"></i></a>
+                        <a href="https://www.facebook.com/tnafwd" class="icon-facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="mailto:doapc2014@gmail.com" class="icon-gplus"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.youtube.com/c/agridepttn" class="icon-youtube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://instagram.com/agridept_tn?igshid=YmMyMTA2M2Y=" class="icon-insta"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="users_view_customized">
+                        <a href="https://www.tnagrisnet.tn.gov.in/others/screen_reader_access/tm" class="ng-binding"><i class="fa-solid fa-eye-slash"></i>திரை வாசிப்பான்</a>
+                        <a href="javascript:void(0);" onclick="skipme()" class="ng-binding"><i class="fa-solid fa-forward"></i>முக்கிய உள்ளடக்கம்</a>
+                        <a href="https://www.tnagrisnet.tn.gov.in/others/sitemap/tm" class="ng-binding"><i class="fa-solid fa-sitemap"></i>தள வரைபடம்</a>
+                        <!--<a href="https://www.tnagrisnet.tn.gov.in/others/notification/{{lang}}" class="blinking" style="color:#ffeb3b;"><i class="fa-solid fa-bell"></i>{{lang=='en'?'Notifications':'அறிவிப்புகள்'}}</a>-->
+
+                        <!--  <blink> <a href="https://www.tnagrisnet.tn.gov.in/includes/Adangal.apk"
+                                style="background: #ffffff;color:blue;padding: 5px;font-weight: bolder;border-radius: 7px;font-size: 13px;text-shadow: 0px 0px 1px #000;"><i
+                                    class="fa-brands fa-google-play"></i>{{lang=='en'?'Digital Crop Survey App':'Digital Crop Survey App'}}</a>
+                        </blink>-->
+                    </div>
+                    <!--<div>
+
+                        <blink><a href="https://www.agrimark.tn.gov.in/ror/#/login" target="_blank"
+                                style="background: #ffffff;color: #e51515;padding: 8px;font-weight: bolder;border-radius: 7px;font-size: 16px;text-shadow: 0px 0px 1px #000;"><img
+                                    src="https://www.tnagrisnet.tn.gov.in/includes/img/GRAINS.jpeg" alt="ror"
+                                    style="margin-right: 10px;width: 18px;margin-top: 4px;">{{lang=='en'?'GRAINS':'GRAINS'}}</a>
+                        </blink>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="header_top" style="z-index: 99;">
+            <div class="container">
+                <div class="row mobile-header-row">
+                    <!--  <div class="col-2">
+                        <div class="tn-logo"><br>
+                              <img src="https://www.tnagrisnet.tn.gov.in/includes/img/100.svg" class="logo-svg-resposive" />
+                        </div>
+                    </div>-->
+                    <div class="col-5">
+                        <div class="header-right-text">
+                            <h2 class="head-Agrisnet">Agrisnet</h2>
+                            <p class="tn-department-title-one" style="text-transform:none;">Government of Tamil Nadu</p>
+                            <p class="tn-department-title-two">Department of Agriculture - Farmers Welfare</p>
+
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="tn-logo">
+                            <img src="https://www.tnagrisnet.tn.gov.in/includes/img/tn_logo_1.png" class="logo-svg-resposive">
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="header-left-text">
+                            <h2 class="head-Agrisnet"> அக்ரிஸ்நெட்</h2>
+                            <p class="tn-department-title-one">தமிழ்நாடு அரசு</p>
+                            <p class="tn-department-title-two">வேளாண்மை - உழவர் நலத்துறை</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="float-sm">
+            <div class="fl-fl float-fb">
+                <div class="flex-color-panel">
+                    <ul class="screen-zoom flex-color-panel">
+                        <li><a id="font-sizeUp" class="badge badge-warning font-cotrl">+</a></li>
+                        <li><a id="font-sizenormal" class="font-cotrl">R</a></li>
+                        <li><a id="font-sizeDown" class="badge badge-warning font-cotrl">-</a></li>
+                    </ul>
+                    <ul class="colr-panel flex-color-panel">
+                        <li class="colr1 colr" onclick="changetheme('style-green.css')">
+                            <a id="green-theme" href="#"></a>
+                        </li>
+                        <li class="colr2 colr" onclick="changetheme('style-brown.css')">
+                            <a id="brown-theme" href="#"></a>
+                        </li>
+                        <li class="colr3 colr" onclick="changetheme('style-blue.css')">
+                            <a id="blue-theme" href="#"></a>
+                        </li>
+                        <li class="colr4 colr" onclick="changetheme('style-red.css')">
+                            <a id="red-theme" href="#"></a>
+                        </li>
+                    </ul>
+                    <ul class="lng-panel flex-color-panel">
+                        <li><a href="https://www.tnagrisnet.tn.gov.in/home/index/en" class="btn btn-link ng-binding">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- this header sticky id   name myheader -->
+        <div class="wrapper sticky">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <div class="content " style="width: 100%;">
+                    <ul class="links tm">
+                        <li><a href="https://www.tnagrisnet.tn.gov.in/home/index/" class="ng-binding">முகப்பு</a>
+                        </li>
+                        <li><a href="https://www.tnagrisnet.tn.gov.in/home/about/" class="ng-binding">எங்களை பற்றி</a>
+                        </li>
+                        <!-- <li>
+                                <a href="home/hod/" class="desktop-link dropdown-toggle">{{lang=='en'?'HOD':'துறை தலைவர்கள்'}}</a>
+                                <input type="checkbox" id="show-features">
+                                <label for="show-features">{{lang=='en'?'HOD':'துறை தலைவர்கள்'}}</label>
+                                <ul>
+                                    <li><a href="home/hod/">{{lang=='en'?'Roll of Honour':'சாதனையாளர்களின் பட்டியல்'}}</a></li>
+                                    <li> <a href="home/hodDesk/">{{lang=='en'?'HODs Desk':'துறை தலைவர்கள் கருத்துக்கள்'}}</a></li>
+                                </ul>
+                            </li> -->
+                        <li>
+                            <a href="#" class="desktop-link dropdown-toggle ng-binding">வேளாண்மை - ஒரு பார்வை</a>
+                            <input type="checkbox" id="show-services">
+                            <label for="show-services" class="ng-binding">வேளாண்மை - ஒரு பார்வை</label>
+                            <ul>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/home/agro_climatic_zone/" class="ng-binding">வேளாண் மண்டலம் (காலநிலை)</a>
+                                </li>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/home/area_production/" class="ng-binding">பரப்பு, உற்பத்தி மற்றும் உற்பத்தித்திறன்</a>
+                                </li>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/home/rainfall/" class="ng-binding">மழைஅளவு</a>
+                                </li>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/home/reservoir/" class="ng-binding">நீர் ஆதாரங்கள்</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.tnagrisnet.tn.gov.in/home/schemes/" class="ng-binding">திட்டங்கள்</a>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-link dropdown-toggle ng-binding">விவசாயிகள் பகுதி</a>
+                            <input type="checkbox" id="show-services1">
+                            <label for="show-services1" class="ng-binding">விவசாயிகள் பகுதி</label>
+                            <ul>
+
+
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/mannvalam/welcome/index/tm" class="ng-binding">தமிழ் மண்வளம்</a>
+                                </li>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/KaviaDP/scheme_register" class="ng-binding">இடுபொருள் முன்பதிவு</a>
+                                </li>
+                                <li><a href="http://tnagriculture.in/calendar/" class="ng-binding">விவசாயத்திற்கான மின்னணு  நாட்காட்டி</a>
+                                </li><li><a href="https://www.tnagrisnet.tn.gov.in/hhbm_public/welcome/stock_position/1" class="ng-binding">விதை இருப்பு</a>
+                                </li>
+                                <li><a target="_blank" href="http://tnagriculture.in/ARS/fert_stock_position/index/tm" class="ng-binding">உர இருப்பு</a>
+                                </li>
+                                <li><a target="_blank" href="http://115.243.209.84/people_app/fertilizer_price/index/tm" class="ng-binding">உர விலை நிலவரம்</a>
+                                </li>
+                                <li><a target="_blank" href="https://www.tnagrisnet.tn.gov.in/home/pestDetails/" class="ng-binding">பூச்சி தாக்குதல் விவரங்கள்</a>
+                                </li>
+                                <li><a target="_blank" href="https://www.tnagrisnet.tn.gov.in/home/disDetails/" class="ng-binding">நோய் தாக்குதல் விவரங்கள்</a>
+                                </li>
+                                <li><a target="_blank" href="http://115.243.209.84/people_app/Pmfby/moreSearch/en?" class="ng-binding">பயிர்காப்பீடு நிலை</a>
+                                </li>
+                                <li><a target="_blank" href="https://www.tnagrisnet.tn.gov.in/people_app/Aao/index/tm/20/2020" class="ng-binding">உழவர் அலுவலர் தொடர்பு திட்டம் </a>
+                                </li>
+                                <li><a target="_blank" href="https://tncsc.tn.gov.in/DPC.html" class="ng-binding">நேரடி கொள்முதல் நிலையங்கள்</a>
+                                </li>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/home/msp/tm" class="ng-binding">குறைந்தபட்ச ஆதார விலை</a>
+                                </li>
+
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/includes/seedCal.pdf" target="_blank" class="ng-binding">பயிர் வாரியான விதை அட்டவணை 2023-24</a>
+                                </li>
+                                <!-- <li>
+                                        <a href="#" class="desktop-link">More Items</a>
+                                        <input type="checkbox" id="show-items">
+                                        <label for="show-items">More Items</label>
+                                        <ul>
+                                            <li><a href="#">Sub Menu 1</a></li>
+                                            <li><a href="#">Sub Menu 2</a></li>
+                                            <li><a href="#">Sub Menu 3</a></li>
+                                        </ul>
+                                    </li> -->
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-link dropdown-toggle ng-binding">இ-சிட்டிசன் </a>
+                            <input type="checkbox" id="show-services2">
+                            <label for="show-services2" class="ng-binding">இ-சிட்டிசன் </label>
+                            <ul>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/includes/images/RTI.pdf" class="ng-binding">தகவல் அறியும் உரிமை சட்டம்</a>
+                                </li>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/home/act_rules/" class="ng-binding">சட்டம் மற்றும் விதிகள்</a>
+                                </li>
+                                <li><a href="https://www.tn.gov.in/citizencharter/dept/2" class="ng-binding">மக்கள் சாசனம்</a>
+                                </li>
+                                <li><a href="https://www.tnagrisnet.tn.gov.in/home/gos" class="ng-binding">அரசாணைகள்</a>
+                                </li>
+                                <li><a href="http://www.tenders.tn.gov.in" class="ng-binding">ஒப்பந்த புள்ளி</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.tnagrisnet.tn.gov.in/home/contact/" class="ng-binding">தொடர்புகள்</a>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-link dropdown-toggle ng-binding">அலுவலர் பகுதி</a>
+                            <input type="checkbox" id="show-services3">
+                            <label for="show-services3" class="ng-binding">அலுவலர் பகுதி</label>
+                            <ul>
+                                <li><a target="_blank" href="https://www.tnagrisnet.tn.gov.in/login">Agrisnet Login</a></li>
+                                <li><a target="_blank" href="http://tnagrisnet.tn.gov.in/fcms">FCMS</a></li>
+                                <li><a target="_blank" href="http://tnagrisnet.tn.gov.in/tanseda">TANSEDA</a></li>
+                                <li><a target="_blank" href="http://tnagrisnet.tn.gov.in/HHBM">Agri Billing (CISMS
+                                        Agri)</a></li>
+                                <a class="dropdown-item" target="_blank" href="http://tnagrisnet.tn.gov.in/paccs">PACCS
+                                    Billing</a>
+
+                                <li><a target="_blank" href="http://tnagrisnet.tn.gov.in/ARS">ARS</a></li>
+                                <li><a target="_blank" href="http://tnagrisnet.tn.gov.in/CES/login.php">CES</a></li>
+                                <li><a target="_blank" href="http://tnagriculture.in/pesticides">PEMIS</a></li>
+                                <li><a target="_blank" href="http://tnagrisnet.tn.gov.in/tops">TANSEDA Online Payment
+                                        System</a></li>
+                                <li><a target="_blank" href="https://www.tnagrisnet.tn.gov.in/people_app/"> Uzhavar
+                                        Login</a></li>
+                                <li><a target="_blank" href="http://tnagrisnet.tn.gov.in/HortiBill">Horti Billing</a>
+                                </li>
+                                <!--   <li><a target="_blank" href="http://115.243.209.84/HRS">HRS</a></li>-->
+                                <li><a target="_blank" href="https://tnhorticulture.tn.gov.in:8080/">Micro
+                                        Irrigation</a></li>
+                                <li><a target="_blank" href=" https://seedcertification.tn.gov.in/seed/login/login.php">Seed
+                                        Certification</a></li>
+
+
+                                <li><a target="_blank" href="https://www.tnagrisnet.tn.gov.in/home/Promotion/tm" class="ng-binding">Promotion List</a>
+                                </li>
+
+                                <!-- <li>
+                                        <a href="#" class="desktop-link">More Items</a>
+                                        <input type="checkbox" id="show-items">
+                                        <label for="show-items">More Items</label>
+                                        <ul>
+                                            <li><a href="#">Sub Menu 1</a></li>
+                                            <li><a href="#">Sub Menu 2</a></li>
+                                            <li><a href="#">Sub Menu 3</a></li>
+                                        </ul>
+                                    </li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- <marquee  width="90%"  direction="left" scrolldelay="100" onmouseover="stop()" onmouseout="start()" style="color:red; font-size:14px; font-weight:560;"><font color="red">" {{lang=='en'?'A wonderful opportunity for the people of farming community Join and reap the benefits from Agri Expo 2023 – “Velaan Sangamam 2023” at Care Engineering College, Trichy from 27.07.2023 to 29.07.2023':'வேளாண் சமூகத்தினை சேர்ந்த அனைவருக்கும் ஓர் அறிய வாய்ப்பு. 27.07.2023 முதல் 29.07.2023 வரை நடைபெறும் வேளாண் கண்காட்சியில்  கலந்துகொண்டு பயன் பெறுவீர். இடம் - கேர் பொறியியல் கல்லூரி, திருச்சி !'}}"</font></marquee>
+    -->
+    </header>
+    <div class="nas-icon w-22">
+        <!--<svg id="Livello_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.75 155.85">
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill: #e7b818;
+                    }
+
+                    .cls-2 {
+                        fill: #f8c300;
+                    }
+
+                    .cls-3 {
+                        fill: #1b4467;
+                    }
+
+                    .cls-4 {
+                        fill: #c21724;
+                    }
+
+                    .cls-5 {
+                        fill: #417f3d;
+                    }
+
+                    .cls-6 {
+                        fill: #d70560;
+                    }
+
+                    .cls-7 {
+                        fill: #a4183d;
+                    }
+
+                    .cls-8 {
+                        fill: #2993d1;
+                    }
+
+                    .cls-9 {
+                        fill: #e0bf78;
+                    }
+
+                    .cls-10 {
+                        fill: #d7af19;
+                    }
+
+                    .cls-11 {
+                        fill: #2c9942;
+                    }
+
+                    .cls-12 {
+                        fill: #e5351c;
+                    }
+
+                    .cls-13 {
+                        fill: #3d3d3c;
+                    }
+
+                    .cls-14 {
+                        fill: #ec6321;
+                    }
+
+                    .cls-15 {
+                        fill: #f59d10;
+                    }
+
+                    .cls-16 {
+                        fill: #ca9817;
+                    }
+
+                    .cls-17 {
+                        fill: #94c356;
+                    }
+
+                    .cls-18 {
+                        fill: #e01932;
+                    }
+
+                    .cls-19 {
+                        fill: #3dbae2;
+                    }
+
+                    .cls-20 {
+                        fill: #63b232;
+                    }
+
+                    .cls-21 {
+                        fill: #ae5d57;
+                    }
+
+                    .cls-22 {
+                        fill: #5f8d44;
+                    }
+
+                    .cls-23 {
+                        fill: #0f659a;
+                    }
+
+                    .cls-24 {
+                        fill: #774542;
+                    }
+                </style>
+            </defs>
+            <g>
+                <g>
+                    <path class="cls-13" d="m48.51,78.52v2.31h2.52v.92h-2.52v.63c0,.55-.07,1.01-.21,1.38-.14.36-.35.67-.63.91-.23.2-.5.35-.82.45s-.68.15-1.08.15c-.44,0-.82-.06-1.15-.19-.33-.12-.61-.29-.83-.51-.22-.21-.39-.46-.5-.75-.11-.29-.17-.59-.17-.91,0-.55.13-1,.39-1.33.26-.33.61-.55,1.05-.66v-3.32h6.58v.92h-2.64Zm-.95,3.23h-2.09c-.44,0-.78.09-1.01.26s-.35.47-.35.87c0,.21.04.4.11.58s.18.33.32.45c.14.13.32.22.53.3.21.07.46.11.73.11.59,0,1.04-.15,1.32-.46.29-.31.43-.8.43-1.48v-.63Zm0-3.23h-2.05v2.31h2.05v-2.31Z" />
+                    <path class="cls-13" d="m57.92,78.52v6.56l-3.41,2.68-.52-.74,2.98-2.33v-6.18h-2.85v6.6h-.95v-7.53h6.54v.92h-1.79Z" />
+                    <path class="cls-13" d="m57.35,75.19c0,.13-.02.25-.07.36s-.11.21-.18.3c-.08.08-.17.15-.27.2-.1.05-.22.07-.34.07s-.23-.02-.34-.07-.19-.11-.27-.2c-.08-.08-.14-.18-.18-.3-.04-.11-.07-.24-.07-.36s.02-.25.07-.37c.04-.12.11-.21.18-.3.08-.08.17-.15.27-.2s.22-.08.34-.08.23.03.34.08c.1.05.19.12.27.2.08.08.14.18.18.3.04.12.07.24.07.37Z" />
+                    <path class="cls-13" d="m65.66,85.12v-.7c.18-.22.33-.46.47-.7.14-.25.25-.5.34-.77.09-.26.16-.53.2-.81.04-.27.07-.54.07-.81,0-.44-.06-.83-.18-1.19-.12-.36-.29-.67-.52-.93-.22-.26-.49-.46-.81-.6-.32-.14-.67-.21-1.05-.21s-.75.08-1.08.23c-.34.15-.63.37-.89.65-.25.28-.45.62-.6,1.01-.14.39-.22.83-.22,1.31,0,.08,0,.16,0,.25,0,.09.02.19.04.27h.03c.05-.16.13-.31.23-.45.1-.14.22-.25.36-.35.14-.09.29-.17.46-.22.17-.05.35-.08.54-.08.26,0,.5.05.72.14.22.1.42.23.58.41.16.18.29.39.38.64.09.25.14.53.14.83s-.05.6-.14.87c-.09.27-.23.5-.4.69-.17.2-.38.35-.63.46s-.52.17-.82.17c-.27,0-.53-.05-.75-.14-.23-.1-.43-.23-.61-.4-.18-.17-.34-.37-.47-.6-.14-.23-.25-.47-.34-.74s-.15-.54-.2-.82c-.04-.28-.07-.57-.07-.85,0-.68.1-1.29.3-1.82.2-.53.47-.97.81-1.33.34-.36.74-.63,1.2-.82.45-.19.94-.28,1.45-.28.48,0,.94.08,1.36.25.42.17.79.41,1.11.73.31.32.56.72.75,1.19.18.47.27,1.01.27,1.62,0,.26-.02.53-.06.79s-.09.52-.16.78-.16.5-.26.73c-.1.24-.22.45-.34.65h2.87v-6.6h.95v7.53h-5.05Zm-1.72-1.99c0-.17-.02-.33-.07-.47-.05-.15-.11-.27-.2-.38-.09-.11-.2-.2-.33-.26-.13-.06-.28-.09-.45-.09s-.31.03-.45.09c-.14.06-.25.15-.35.26-.1.11-.17.24-.23.38-.05.15-.08.3-.08.47,0,.19.03.36.08.52.05.15.13.29.23.4.1.11.22.2.35.26.14.06.28.09.44.09.14,0,.28-.03.41-.08.13-.05.24-.13.34-.24.1-.11.17-.24.23-.4.06-.16.08-.34.08-.56Z" />
+                    <path class="cls-13" d="m79.82,83.02c0,.32-.06.62-.17.89-.11.27-.28.51-.51.71-.23.2-.51.36-.85.47s-.74.17-1.19.17c-.51,0-.98-.07-1.4-.2-.42-.13-.79-.32-1.12-.55-.33-.23-.62-.51-.86-.82s-.45-.65-.6-1.01c-.16-.36-.28-.74-.36-1.12-.08-.39-.12-.77-.12-1.15,0-.55.06-1.06.18-1.52.12-.46.28-.87.49-1.24.21-.36.45-.68.74-.96.28-.27.59-.5.92-.68.33-.18.68-.31,1.04-.4.36-.09.73-.13,1.09-.13.43,0,.81.06,1.14.18.33.12.6.28.83.48.22.2.39.44.51.71.11.27.17.56.17.86s-.05.59-.14.83c-.09.24-.23.45-.4.62-.17.17-.37.3-.61.39s-.49.13-.78.13c-.3,0-.56-.05-.8-.14-.24-.09-.43-.23-.6-.39-.16-.17-.29-.37-.37-.6-.09-.23-.13-.49-.13-.76,0-.14.02-.28.05-.42.03-.14.08-.26.14-.38.06-.12.13-.23.21-.33s.17-.18.26-.25v-.02c-.36.05-.72.16-1.07.36-.35.19-.67.45-.96.79-.29.34-.52.74-.69,1.22-.18.48-.27,1.02-.27,1.63,0,.54.08,1.04.23,1.51.16.46.37.87.63,1.22s.57.63.93.85c.35.22.72.35,1.11.41v-.02c-.15-.15-.28-.34-.39-.57-.11-.23-.16-.49-.16-.8,0-.28.05-.54.15-.78.1-.24.23-.44.4-.61.17-.17.38-.3.61-.39.24-.09.5-.14.78-.14s.54.05.77.14c.23.09.43.22.6.4.17.17.3.38.39.63.09.24.14.52.14.82Zm-1.01-5.35c0-.2-.03-.37-.1-.53-.07-.15-.16-.29-.28-.4-.12-.11-.25-.2-.41-.26-.16-.06-.32-.1-.5-.11-.21.12-.38.29-.51.52-.13.22-.19.47-.19.73,0,.34.09.62.27.83.18.21.43.31.76.31.29,0,.52-.09.7-.28.18-.19.27-.46.27-.81Zm.06,5.41c0-.19-.02-.35-.07-.5-.05-.14-.12-.26-.2-.36-.09-.1-.19-.17-.31-.22-.12-.05-.25-.07-.39-.07-.16,0-.3.03-.43.08-.13.05-.24.13-.34.23-.09.1-.16.22-.22.35s-.08.28-.08.44c0,.13.02.27.05.4.03.13.08.25.14.37.06.12.13.22.22.31.09.09.19.17.3.24.2,0,.38-.04.55-.11.17-.06.31-.15.42-.26.12-.11.21-.24.27-.4.06-.15.1-.32.1-.51Z" />
+                    <path class="cls-13" d="m90.05,83.48c0,.55-.09,1.03-.28,1.45-.18.42-.45.77-.79,1.05-.34.28-.76.5-1.25.64-.49.14-1.05.22-1.66.22s-1.18,0-1.75,0-1.13,0-1.67,0c-.23,0-.39.03-.49.09-.09.06-.14.17-.14.33,0,.1.01.19.03.28.02.09.05.18.1.28h-.85c-.04-.11-.08-.22-.11-.34-.03-.12-.05-.25-.05-.38,0-.4.12-.69.36-.88s.59-.28,1.05-.28h.77c.29,0,.59,0,.91,0,.32,0,.64,0,.96,0h.93c.13,0,.27,0,.39,0,.12,0,.25-.01.36-.03.35-.05.66-.15.93-.27.27-.13.5-.29.69-.49.19-.2.33-.43.43-.7.1-.27.15-.57.15-.9s-.04-.62-.13-.85c-.09-.23-.21-.41-.36-.55-.15-.14-.33-.24-.55-.3-.21-.06-.44-.09-.69-.09h-.69v.63c0,.52-.06.96-.19,1.32-.13.35-.32.65-.57.9-.23.22-.51.38-.84.5-.33.11-.71.17-1.13.17s-.82-.06-1.15-.19c-.33-.12-.61-.29-.83-.51-.22-.21-.39-.46-.5-.75-.11-.29-.17-.59-.17-.91,0-.55.13-.99.39-1.33.26-.34.61-.56,1.05-.67v-3.32h6.58v.92h-2.64v2.31h.65c.42,0,.79.05,1.13.15s.63.26.87.47.42.49.56.82c.13.33.2.74.2,1.21Zm-4.35-1.74h-2.09c-.44,0-.78.09-1.01.26s-.35.47-.35.87c0,.21.04.4.11.58s.18.33.32.45c.14.13.32.22.53.3.21.07.46.11.74.11.59,0,1.04-.15,1.32-.46.29-.31.43-.8.43-1.48v-.63Zm0-3.23h-2.05v2.31h2.05v-2.31Z" />
+                    <path class="cls-13" d="m96.94,78.52v2.31h2.52v.92h-2.52v.63c0,.55-.07,1.01-.21,1.38-.14.36-.35.67-.62.91-.23.2-.5.35-.82.45s-.68.15-1.08.15c-.44,0-.82-.06-1.15-.19-.33-.12-.61-.29-.83-.51s-.39-.46-.5-.75c-.11-.29-.17-.59-.17-.91,0-.55.13-1,.39-1.33.26-.33.61-.55,1.05-.66v-3.32h6.58v.92h-2.64Zm-.95,3.23h-2.09c-.44,0-.78.09-1.01.26-.23.18-.35.47-.35.87,0,.21.04.4.11.58.07.18.18.33.32.45.14.13.32.22.53.3.21.07.46.11.73.11.59,0,1.03-.15,1.32-.46.29-.31.43-.8.43-1.48v-.63Zm0-3.23h-2.05v2.31h2.05v-2.31Z" />
+                </g>
+                <g>
+                    <path class="cls-13" d="m23.67,99.17h-2.42v.21c0,.47-.08.89-.23,1.26-.15.37-.36.68-.63.93-.27.25-.59.45-.95.58-.37.13-.77.2-1.2.2s-.81-.06-1.17-.19-.66-.3-.92-.53-.46-.5-.6-.82c-.14-.32-.22-.68-.22-1.07,0-.57.16-1.04.47-1.41-.17-.16-.32-.35-.47-.57-.15-.22-.28-.46-.39-.72-.11-.26-.2-.54-.26-.84-.06-.3-.09-.62-.09-.94,0-.69.14-1.32.42-1.88.28-.56.68-1.04,1.2-1.43.52-.39,1.15-.7,1.9-.92.75-.22,1.59-.32,2.53-.32,1.08,0,2.04.15,2.88.46.84.31,1.52.77,2.03,1.38.43.51.75,1.13.95,1.88.21.74.31,1.63.31,2.66,0,.08,0,.19,0,.32,0,.13,0,.26,0,.38s0,.23,0,.33c0,.1,0,.15,0,.16l-.04,3.91h-1.47l.05-3.77c0-.06,0-.14,0-.23,0-.09,0-.19,0-.29v-.45c0-.47-.02-.91-.05-1.3-.03-.39-.09-.75-.17-1.07-.07-.32-.17-.61-.29-.86-.12-.26-.27-.48-.44-.69-.37-.44-.89-.77-1.54-1s-1.44-.35-2.36-.35c-.72,0-1.37.07-1.93.21-.56.14-1.04.34-1.42.61-.39.27-.68.59-.88.97-.2.39-.3.82-.3,1.31,0,.2.02.39.05.58s.08.38.14.55c.06.17.14.34.22.49.09.15.18.28.29.39v-2.63h7.11v1.5h-2.52v1.49h2.42v1.5Zm-3.9-.02h-2.15c-.1,0-.19,0-.28.03-.09.02-.17.05-.23.1-.07.05-.12.11-.16.19-.04.08-.06.18-.06.3,0,.13.03.27.08.39.06.13.14.24.26.34.11.1.26.19.44.25.18.06.39.09.63.09.46,0,.82-.12,1.08-.37s.39-.63.39-1.15v-.18Zm0-2.97h-1.68v1.49h1.68v-1.49Z" />
+                    <path class="cls-13" d="m38.38,98.49c0,.21,0,.43-.02.68-.02.24-.04.49-.08.76-.04.26-.09.54-.15.81s-.15.55-.24.83h1.68v-6.89h1.48v8.26h-3.84c-.22.31-.47.61-.76.88s-.63.51-1.01.71c-.38.2-.81.36-1.29.47-.48.12-1.02.17-1.62.17-.55,0-1.04-.04-1.47-.12-.43-.08-.81-.19-1.14-.32s-.6-.29-.83-.46-.42-.35-.56-.54c-.14-.19-.25-.37-.32-.56s-.1-.35-.1-.51c0-.13.02-.26.07-.39.04-.13.12-.25.22-.36.1-.1.24-.19.4-.26.17-.07.38-.1.63-.1h6.94c.17-.41.29-.86.36-1.35s.11-1.03.11-1.6c0-1.71-.4-2.57-1.21-2.57-.16,0-.31.04-.45.13-.14.08-.26.22-.36.4-.1.18-.18.41-.24.7-.06.29-.09.63-.09,1.02v2.63h-1.46v-2.63c0-.77-.08-1.34-.25-1.7-.16-.36-.44-.54-.83-.54-.17,0-.32.04-.43.12-.12.08-.21.21-.28.41s-.13.45-.16.76c-.03.32-.05.71-.05,1.19v.35c0,.16,0,.35,0,.56,0,.22,0,.45.01.7,0,.25,0,.51.02.78h-1.47c0-.27-.01-.52-.02-.78,0-.25,0-.49-.01-.71s0-.42,0-.59,0-.31,0-.41c0-.49.01-.91.04-1.25.03-.34.07-.64.12-.88.05-.25.12-.45.21-.62.09-.17.19-.32.3-.46.22-.26.47-.45.74-.57.27-.11.57-.17.89-.17.25,0,.47.03.67.09.2.06.38.15.53.27.15.12.29.26.41.43.12.17.22.36.31.57h.04c.09-.2.2-.39.33-.55.13-.17.28-.31.45-.43.17-.12.35-.21.56-.28.21-.07.42-.1.66-.1.41,0,.77.09,1.08.27s.59.44.81.78c.22.34.39.76.51,1.26.12.5.18,1.07.18,1.71Zm-8.79,4.59c0,.1.08.19.25.28.16.09.38.16.66.23s.59.12.95.16.73.06,1.11.06c.63,0,1.18-.07,1.64-.22.46-.15.86-.36,1.19-.65h-5.68c-.05,0-.09.02-.1.05s-.02.06-.02.08Z" />
+                    <path class="cls-13" d="m48.51,96.18v1.49h.49c.49,0,.91.07,1.27.2.36.13.66.33.91.58.24.25.42.56.54.92.12.36.18.78.18,1.24,0,.59-.09,1.11-.28,1.57s-.47.84-.84,1.16-.84.55-1.39.72-1.2.24-1.92.24h-.63c-.22,0-.43,0-.65,0-.21,0-.42,0-.62,0-.2,0-.38,0-.54,0-.16,0-.29,0-.4,0h-.21c-.14,0-.25,0-.33.03s-.14.04-.18.07-.07.07-.08.11c-.01.04-.02.09-.02.14,0,.07,0,.14.02.2.02.06.04.13.09.22h-1.31c-.05-.14-.09-.27-.11-.4s-.03-.26-.03-.39c0-.26.04-.47.12-.64.08-.17.19-.32.33-.42.14-.11.31-.18.51-.23.2-.05.41-.07.65-.07h.29c.16,0,.34,0,.56,0,.22,0,.45,0,.71,0,.25,0,.49,0,.73,0,.23,0,.44,0,.62,0h.38c.14,0,.26,0,.36,0,.1,0,.19,0,.26-.02s.14-.01.2-.02.11-.01.17-.02c.35-.06.66-.15.91-.27.25-.12.46-.27.63-.45.16-.18.28-.39.36-.63s.12-.51.12-.82c0-.36-.05-.65-.14-.85-.09-.2-.21-.36-.34-.45-.13-.1-.28-.16-.43-.18-.15-.02-.29-.03-.42-.03h-.5v.23c0,.3-.03.59-.09.85-.06.27-.15.51-.26.73-.11.22-.25.42-.41.58-.16.17-.34.31-.54.43-.25.14-.51.24-.8.29s-.56.09-.84.09c-.45,0-.86-.06-1.23-.19s-.68-.3-.94-.53c-.26-.23-.46-.5-.6-.82-.14-.32-.21-.68-.21-1.07,0-.48.11-.88.32-1.22.21-.33.54-.57.98-.71v-3.14h7.14v1.5h-2.52Zm-1.48,2.97h-2.15c-.1,0-.19,0-.28.03-.09.02-.17.05-.23.1-.07.05-.12.11-.16.19s-.06.18-.06.3c0,.13.03.27.08.39.06.13.14.24.25.34.11.1.26.19.44.25.18.06.39.09.63.09.46,0,.82-.12,1.08-.37s.39-.63.39-1.15v-.18Zm0-2.97h-1.68v1.49h1.68v-1.49Z" />
+                    <path class="cls-13" d="m58.99,96.18v6.02h-1.48v-6.02h-2.52v6.02h-1.48v-7.53h7.2v1.5h-1.72Z" />
+                    <path class="cls-13" d="m62.74,98.44c.16-.15.36-.27.58-.38.23-.11.48-.16.77-.16.25,0,.48.04.71.14.22.09.42.22.59.4.17.18.3.4.4.66s.15.56.15.9c0,.36-.06.69-.17.98-.12.29-.27.54-.47.74s-.43.36-.69.47c-.26.11-.54.16-.84.16-.4,0-.76-.09-1.08-.28s-.59-.44-.82-.76c-.22-.32-.4-.69-.52-1.12-.12-.42-.18-.87-.18-1.35,0-.7.13-1.32.39-1.86.26-.54.61-1,1.06-1.37.45-.37.98-.65,1.59-.84s1.27-.29,1.97-.29c.49,0,.97.05,1.43.14s.89.23,1.27.4c.26-.07.5-.13.73-.17s.44-.08.64-.1c.21-.03.41-.04.62-.05.21,0,.42-.01.66-.01h4.16v1.5h-1.88v6.02h-1.47v-6.02h-.68c-.24,0-.46,0-.66,0-.2,0-.41,0-.63,0,.32.38.57.82.74,1.31.18.49.26,1.03.26,1.62,0,.47-.06.9-.17,1.29-.11.4-.28.74-.49,1.02s-.48.51-.78.67c-.31.16-.66.24-1.05.24-.41,0-.77-.09-1.08-.26s-.57-.4-.79-.7c-.21-.29-.37-.63-.48-1.01-.11-.38-.16-.78-.16-1.2,0-.57.1-1.11.3-1.63.2-.51.5-.99.89-1.43-.23-.06-.48-.09-.73-.12-.26-.03-.5-.04-.73-.04-.49,0-.91.05-1.27.16-.36.11-.66.24-.91.4-.25.16-.45.34-.61.54-.16.2-.28.39-.36.57s-.15.35-.18.49c-.03.15-.05.25-.05.31h.03Zm1.71,1.64c0-.23-.07-.42-.2-.56-.13-.14-.31-.21-.52-.21-.11,0-.22.02-.31.06-.1.04-.18.09-.26.16-.07.07-.13.15-.18.25-.04.1-.06.2-.06.32s.02.22.06.31.1.18.17.25.16.13.25.17c.1.04.2.06.31.06s.21-.02.3-.06c.09-.04.17-.1.24-.17.06-.07.11-.16.15-.26s.06-.21.06-.33Zm4.39-3.52c-.16.15-.29.32-.41.51-.11.2-.21.4-.28.62-.07.22-.13.44-.16.67-.04.23-.06.46-.06.68,0,.25.02.48.06.7.04.22.1.42.18.59s.18.3.3.4c.12.1.26.15.42.15s.28-.05.4-.14.21-.22.29-.37c.08-.15.14-.34.17-.54.04-.21.06-.43.06-.66s-.02-.48-.06-.73c-.04-.25-.1-.49-.18-.72-.08-.23-.18-.45-.3-.65-.12-.2-.26-.37-.42-.52Z" />
+                    <path class="cls-13" d="m76.93,102.21v-7.17c0-.44-.01-.83-.04-1.18-.03-.35-.09-.64-.18-.88-.09-.24-.22-.43-.4-.55-.17-.13-.4-.19-.69-.19-.22,0-.4.03-.55.1-.15.07-.27.16-.37.28-.1.12-.17.25-.21.4-.04.15-.06.31-.06.48,0,.24.04.48.12.72.08.24.18.45.31.62h-1.38c-.16-.29-.28-.57-.35-.85-.07-.28-.11-.55-.11-.81,0-.34.06-.66.18-.95s.29-.55.52-.77.51-.39.85-.51.73-.19,1.17-.19c.53,0,.97.09,1.31.28.35.18.62.44.82.78.2.33.34.74.42,1.21.08.47.12.99.12,1.56v7.62h-1.48Z" />
+                    <path class="cls-13" d="m84.32,102.21v-.82h-.03c-.2.31-.45.54-.76.71-.3.17-.66.25-1.05.25-.15,0-.29-.01-.43-.04-.14-.03-.28-.06-.41-.11-.13-.05-.26-.11-.37-.18-.12-.07-.22-.16-.31-.25s-.18-.21-.25-.34c-.07-.13-.13-.29-.18-.46-.05-.18-.08-.38-.11-.61s-.04-.49-.04-.78v-4.89h1.47v4.64c0,.19,0,.36.01.49,0,.14.03.25.05.34.02.09.05.17.08.24.03.06.07.12.11.17.08.08.18.15.3.21.12.06.27.08.44.08s.32-.03.48-.08c.15-.06.28-.14.4-.24.12-.11.21-.23.27-.37.07-.14.1-.3.1-.47v-5.01h1.47v6.03h3.73v-6.03h1.47v7.53h-6.42Z" />
+                    <path class="cls-13" d="m95.96,102.21v-1.48h3.07c.1-.16.19-.35.27-.57.08-.22.12-.47.12-.75,0-.22-.03-.4-.07-.55-.05-.15-.12-.27-.2-.36-.08-.09-.18-.16-.29-.2-.11-.04-.22-.06-.34-.06-.13,0-.26.03-.38.07-.13.05-.25.13-.35.24-.1.11-.19.26-.25.44-.07.18-.1.41-.1.68v.47h-1.48v-3.97h-1.72v6.04h-1.48v-7.53h7.56v1.48h-2.89v1.17h.02c.22-.19.46-.33.73-.41.27-.08.53-.13.79-.13s.51.05.76.14c.24.09.46.23.65.42s.34.44.45.74c.11.3.17.66.17,1.09,0,.16,0,.31-.03.45s-.04.26-.08.38c-.03.12-.07.24-.12.35-.04.11-.09.23-.15.36h1.55v-6.04h1.48v7.53h-7.69Z" />
+                    <path class="cls-13" d="m97.22,92.27c0-.17.03-.33.09-.48s.14-.28.24-.39c.1-.11.22-.2.36-.27.14-.06.28-.1.44-.1s.31.03.45.1c.14.07.26.15.36.27.1.11.18.24.24.39.06.15.09.31.09.48s-.03.33-.09.48c-.06.15-.14.28-.24.39-.1.11-.22.2-.36.27-.14.06-.29.1-.45.1s-.31-.03-.44-.1c-.14-.07-.26-.15-.36-.27-.1-.11-.18-.24-.24-.39-.06-.15-.09-.31-.09-.48Z" />
+                    <path class="cls-13" d="m114.64,100.02c0,.36-.06.68-.17.96-.11.29-.27.53-.47.73-.2.2-.44.36-.72.46s-.58.16-.92.16c-.08,0-.17,0-.27,0s-.19-.02-.29-.03c-.09-.02-.18-.03-.27-.05s-.16-.04-.23-.07v-1.48c.13.05.27.09.42.13.15.04.31.05.48.05.31,0,.54-.08.67-.23.13-.15.2-.36.2-.64,0-.09-.01-.19-.03-.3-.02-.11-.07-.2-.13-.28s-.16-.15-.29-.21c-.12-.06-.29-.09-.5-.09h-1v.23c0,.47-.08.89-.23,1.26-.15.37-.36.68-.63.93-.27.25-.58.45-.95.58-.36.13-.76.2-1.18.2s-.83-.06-1.19-.19-.67-.3-.93-.53-.46-.51-.6-.83c-.14-.32-.21-.68-.21-1.08,0-.21.03-.41.08-.61.05-.2.13-.38.23-.55.11-.17.24-.32.4-.45.16-.13.36-.23.58-.3v-3.14h7.14v1.5h-2.52v1.49h1.09c.24,0,.44.02.63.05.18.03.35.08.49.13.14.05.27.11.37.18.1.07.19.14.27.21.24.23.41.5.52.81.11.31.16.64.16.97Zm-5-.87h-2.15c-.1,0-.19,0-.28.03-.09.02-.17.05-.23.1-.07.05-.12.11-.16.19s-.06.18-.06.3c0,.13.03.27.08.39.06.13.14.24.25.34.11.1.26.19.44.25.18.06.39.09.63.09.46,0,.82-.12,1.08-.37s.39-.63.39-1.15v-.18Zm0-2.97h-1.68v1.49h1.68v-1.49Z" />
+                    <path class="cls-13" d="m126.54,96.18v6.02h-1.48v-6.02h-2.2v6.02h-1.48v-3.8c0-.79-.17-1.39-.51-1.81-.34-.42-.81-.63-1.43-.63-.29,0-.54.04-.76.13s-.41.2-.56.35c-.16.14-.29.3-.39.48-.1.18-.18.36-.25.53-.06.18-.1.35-.13.51-.03.16-.04.29-.04.4v.03s0,.03,0,.04h.03c.16-.14.36-.27.6-.37s.5-.16.79-.16c.25,0,.48.05.71.14.22.09.42.23.59.4.17.18.3.39.4.65s.15.56.15.89c0,.36-.06.69-.17.99-.12.29-.27.54-.47.74s-.43.36-.69.47c-.27.11-.55.16-.85.16-.4,0-.75-.09-1.07-.28-.32-.18-.59-.44-.81-.76-.22-.33-.4-.71-.52-1.15-.12-.44-.18-.92-.18-1.44,0-.65.09-1.24.28-1.76.19-.52.44-.97.77-1.33.33-.37.71-.65,1.16-.85.45-.2.93-.3,1.45-.3.17,0,.35.01.52.04.17.03.34.07.51.13.17.06.34.15.5.26.16.11.32.25.46.41h.05v-.63h6.45v1.5h-1.43Zm-7.44,3.89c0-.23-.07-.42-.2-.56-.13-.14-.31-.21-.52-.21-.11,0-.22.02-.31.06-.1.04-.18.09-.26.16-.07.07-.13.15-.18.25-.04.1-.06.2-.06.32s.02.22.06.31.1.18.17.25.16.13.25.17c.1.04.2.06.31.06s.21-.02.3-.06c.09-.04.17-.1.24-.17.06-.07.11-.16.15-.26s.06-.21.06-.33Z" />
+                    <path class="cls-13" d="m120.99,92.27c0-.17.03-.33.09-.48s.14-.28.24-.39c.1-.11.22-.2.36-.27.14-.06.28-.1.44-.1s.31.03.45.1c.14.07.26.15.36.27.1.11.18.24.24.39.06.15.09.31.09.48s-.03.33-.09.48c-.06.15-.14.28-.24.39-.1.11-.22.2-.36.27-.14.06-.29.1-.45.1s-.31-.03-.44-.1c-.14-.07-.26-.15-.36-.27-.1-.11-.18-.24-.24-.39-.06-.15-.09-.31-.09-.48Z" />
+                    <path class="cls-13" d="m58.01,110.13h1.47v5.76h.02c.14-.13.31-.23.51-.31.19-.08.41-.12.64-.12.29,0,.54.06.74.19s.37.3.49.5c.12.2.21.43.27.67.05.25.08.49.08.72,0,.46-.09.87-.28,1.23-.18.36-.45.67-.78.93s-.74.45-1.22.58c-.47.14-.99.21-1.56.21-.51,0-.95-.05-1.32-.15s-.69-.24-.93-.41c-.25-.17-.43-.37-.55-.59-.12-.22-.18-.45-.18-.7,0-.2.04-.38.12-.54.08-.16.19-.3.33-.41.14-.11.31-.2.5-.26.19-.06.41-.09.64-.09.07,0,.15,0,.24,0,.08,0,.17.02.25.03v1.15c-.07,0-.14-.02-.2-.02-.06,0-.11,0-.16,0-.09,0-.18.01-.26.03-.08.02-.12.07-.12.13,0,.06.03.11.1.18.07.06.17.13.31.18.14.06.31.1.51.15.2.04.44.06.72.06.4,0,.76-.05,1.06-.14.31-.09.57-.21.78-.37s.37-.35.47-.56c.11-.21.16-.44.16-.69,0-.27-.06-.47-.17-.59-.12-.13-.27-.19-.46-.19-.02,0-.07,0-.15.02-.08.01-.16.05-.25.12-.09.07-.16.18-.23.32-.07.15-.1.35-.1.62v.52h-1.47v-1.67h-2.12c-.2.35-.44.68-.73.99s-.63.58-1.04.81c-.4.23-.86.42-1.39.55s-1.12.2-1.78.2c-.56,0-1.06-.05-1.49-.14-.44-.09-.82-.21-1.15-.36s-.61-.33-.84-.52c-.23-.2-.42-.4-.57-.61-.15-.21-.25-.42-.32-.63s-.1-.4-.1-.57c0-.14.02-.29.07-.43.05-.14.13-.27.24-.39.11-.11.26-.21.45-.28.18-.07.42-.11.69-.11h6.91c.02-.06.03-.11.03-.15,0-.04.01-.09.02-.13,0-.04,0-.08.01-.13,0-.04,0-.09,0-.15,0-.36-.03-.7-.09-1.02s-.16-.61-.28-.86c-.13-.25-.29-.46-.49-.63-.2-.17-.43-.27-.7-.32v.03c.16.16.27.34.35.53.07.2.11.4.11.6,0,.22-.04.43-.12.64-.08.21-.21.4-.37.57s-.37.3-.61.4-.52.15-.84.15-.59-.05-.84-.15c-.25-.1-.46-.23-.64-.41-.18-.18-.31-.39-.41-.64-.1-.25-.15-.53-.15-.83,0-.35.07-.67.2-.96.13-.29.32-.53.57-.74.25-.21.55-.37.91-.48s.76-.17,1.21-.17c.59,0,1.11.1,1.56.29.45.19.84.47,1.15.83.31.36.55.79.71,1.31.16.51.25,1.09.25,1.74,0,.15,0,.27-.01.37,0,.1-.02.2-.04.32h1.67v-5.01Zm-9.88,6.46c-.06,0-.1.02-.12.06-.02.04-.03.07-.03.11,0,.12.08.24.25.36.17.12.39.22.68.32s.61.17.97.23c.37.06.75.09,1.15.09s.76-.03,1.08-.1c.33-.07.62-.15.89-.26.26-.11.5-.23.7-.37.2-.14.39-.29.54-.44h-6.12Zm3.84-4.93c-.1.02-.19.05-.29.09-.1.04-.19.09-.27.16-.08.07-.14.15-.19.25s-.07.22-.07.36c0,.24.07.42.21.54.14.12.31.19.53.19.13,0,.24-.02.33-.06s.17-.09.23-.16c.06-.07.11-.15.14-.23.03-.09.05-.18.05-.27,0-.19-.05-.37-.16-.53-.11-.17-.27-.28-.49-.34Z" />
+                    <path class="cls-13" d="m81.25,111.64v6.03h-1.47v-6.03h-.68c-.25,0-.49,0-.71,0-.22,0-.44,0-.68,0,.3.32.53.72.71,1.21.18.49.27,1.05.27,1.68,0,.49-.06.93-.17,1.33-.11.4-.28.74-.49,1.03-.21.29-.48.51-.78.67-.31.16-.66.24-1.04.24-.41,0-.76-.08-1.07-.25s-.57-.4-.78-.69c-.21-.29-.37-.63-.47-1.01-.11-.39-.16-.8-.16-1.23,0-.26.02-.53.06-.81s.11-.54.19-.81c.09-.26.2-.52.34-.76.14-.25.3-.48.5-.69-.21-.05-.42-.08-.63-.1-.21-.02-.43-.03-.66-.03-.13,0-.24,0-.35,0-.11,0-.21.02-.32.03-.1.01-.21.03-.32.05-.11.02-.22.04-.35.07.16.17.31.36.44.57.13.21.24.45.34.7s.17.52.22.81c.05.29.08.59.08.91,0,.47-.06.9-.17,1.3-.11.4-.28.74-.49,1.02-.21.28-.48.51-.78.67-.31.16-.66.24-1.05.24-.41,0-.77-.09-1.08-.26-.31-.17-.57-.4-.79-.7s-.37-.63-.48-1.01c-.11-.38-.16-.78-.16-1.2,0-.57.1-1.11.3-1.63s.5-.99.89-1.43c-.23-.06-.48-.09-.73-.12-.26-.03-.5-.04-.73-.04-.49,0-.91.05-1.27.16-.36.1-.66.24-.91.4-.25.16-.45.34-.61.54-.16.2-.28.39-.36.57-.09.18-.15.35-.18.49-.03.15-.05.25-.05.31h.03c.16-.14.36-.27.58-.37.23-.11.48-.16.77-.16.25,0,.48.05.71.14.22.09.42.23.59.4.17.18.3.39.4.65.1.26.15.56.15.89,0,.37-.06.69-.17.99-.12.29-.27.54-.47.74-.2.2-.43.36-.69.47s-.54.16-.84.16c-.4,0-.76-.09-1.08-.28-.32-.19-.59-.44-.82-.76-.22-.32-.4-.69-.52-1.12-.12-.42-.18-.87-.18-1.35,0-.7.13-1.32.39-1.86.26-.54.61-1,1.06-1.37.45-.37.97-.65,1.58-.84.6-.19,1.25-.29,1.95-.29.2,0,.41,0,.64.03.23.02.46.05.71.09.24.04.49.1.73.17.24.07.48.16.71.27.45-.21.91-.36,1.38-.44.47-.08.93-.12,1.37-.12.2,0,.41,0,.63.03.22.02.44.05.67.09.23.04.46.1.68.17.23.07.45.16.67.26.27-.07.51-.13.74-.17.23-.04.45-.08.67-.1.22-.03.43-.04.65-.05.22,0,.44-.01.67-.01h4.13v1.5h-1.84Zm-14.89,3.89c0-.23-.07-.42-.2-.56-.13-.14-.31-.21-.52-.21-.11,0-.22.02-.31.06-.1.04-.18.09-.26.16-.07.07-.13.15-.18.25s-.06.2-.06.32.02.22.06.32c.04.1.1.18.17.25.07.07.16.13.25.17.1.04.2.06.31.06s.21-.02.3-.06c.09-.04.17-.1.24-.17.06-.07.11-.16.15-.26s.06-.21.06-.33Zm4.39-3.52c-.16.15-.29.32-.41.51-.11.2-.21.4-.28.62-.07.22-.13.44-.16.67-.04.23-.06.46-.06.68,0,.25.02.48.06.7.04.22.1.42.18.59.08.17.18.3.3.4.12.1.26.15.42.15s.28-.05.4-.14c.11-.09.21-.21.29-.37s.14-.34.17-.54c.04-.21.06-.43.06-.66s-.02-.48-.06-.73c-.04-.25-.1-.49-.18-.72s-.18-.45-.3-.65c-.12-.2-.26-.37-.42-.51Zm5.36-.04c-.14.17-.27.36-.37.57-.1.21-.19.42-.26.64-.07.22-.12.44-.15.67s-.05.45-.05.66c0,.25.02.49.07.71.04.22.11.41.19.58.08.17.18.3.3.4s.25.15.4.15.28-.05.39-.14c.11-.09.21-.22.28-.38.08-.16.13-.35.17-.56s.06-.44.06-.68-.02-.48-.06-.72c-.04-.25-.1-.48-.18-.71-.08-.23-.19-.45-.31-.64-.13-.2-.28-.37-.46-.52Z" />
+                    <path class="cls-13" d="m72.51,107.73c0-.17.03-.33.09-.48.06-.15.14-.28.24-.39.1-.11.22-.2.36-.26.14-.06.28-.1.44-.1s.31.03.45.1c.14.06.26.15.36.26.1.11.18.24.24.39s.09.31.09.48-.03.33-.09.48-.14.28-.24.39-.22.2-.36.26c-.14.06-.29.1-.45.1s-.31-.03-.44-.1c-.14-.07-.26-.15-.36-.26-.1-.11-.18-.24-.24-.39-.06-.15-.09-.31-.09-.48Z" />
+                    <path class="cls-13" d="m92.99,116.08c0,.68-.09,1.29-.27,1.83-.18.54-.45,1-.79,1.39s-.77.67-1.26.88c-.5.21-1.07.31-1.7.31-.46,0-.91-.06-1.35-.17-.44-.11-.85-.28-1.23-.51-.38-.23-.74-.52-1.06-.86-.32-.35-.6-.75-.82-1.22-.23-.47-.41-1-.54-1.59-.13-.59-.19-1.25-.19-1.97,0-1.12.15-2.11.46-2.96.31-.85.74-1.57,1.28-2.14.55-.57,1.2-1,1.96-1.3.76-.29,1.58-.44,2.48-.44s1.63.13,2.3.38,1.24.63,1.7,1.11c.46.49.81,1.1,1.05,1.82.24.72.35,1.54.35,2.45v.17c0,.06,0,.12,0,.18,0,.06,0,.11,0,.15v.07l-.02,4.01h-1.47l.02-3.81v-.08c0-.05,0-.11,0-.18,0-.07,0-.14,0-.21v-.17c0-.66-.08-1.26-.24-1.8-.16-.54-.4-1-.73-1.39-.33-.38-.75-.68-1.25-.89-.51-.21-1.1-.32-1.79-.32-.76,0-1.43.13-2,.38s-1.05.61-1.43,1.07c-.38.46-.67,1.02-.86,1.67-.19.65-.29,1.37-.29,2.16,0,.7.08,1.35.23,1.96.15.6.38,1.13.68,1.57s.68.79,1.13,1.05c.45.26.98.38,1.59.38.42,0,.79-.06,1.1-.19s.58-.31.79-.55c.21-.24.37-.54.47-.89.1-.35.16-.75.16-1.19,0-.16,0-.33-.03-.53-.02-.2-.06-.38-.12-.55-.06-.17-.16-.32-.28-.44-.12-.12-.29-.18-.49-.18-.13,0-.25.03-.37.08-.12.05-.22.14-.31.25-.09.11-.16.25-.21.43s-.08.38-.08.62v1.74h-1.48v-7.53h1.48v3.53h.03c.16-.14.36-.28.6-.39.24-.11.52-.17.83-.17s.59.06.84.19c.25.13.46.32.63.57.17.25.31.56.4.93.09.37.14.79.14,1.28Z" />
+                </g>
+            </g>
+            <g>
+                <path class="cls-13" d="m46.23,140.97c0-4.84,7.42-5.39,7.42-9.61,0-1.67-1.23-2.99-3.24-2.99-2.23,0-3.38,1.99-3.38,1.99l-.64-.44s1.25-2.39,4.04-2.39,4.12,1.83,4.12,3.82c0,4.76-7.41,5.35-7.41,9.55h7.62v.8h-8.48c-.04-.26-.06-.5-.06-.74Z" />
+                <path class="cls-13" d="m74.58,140.97c0-4.84,7.42-5.39,7.42-9.61,0-1.67-1.23-2.99-3.24-2.99-2.23,0-3.38,1.99-3.38,1.99l-.64-.44s1.25-2.39,4.04-2.39,4.12,1.83,4.12,3.82c0,4.76-7.41,5.35-7.41,9.55h7.62v.8h-8.48c-.04-.26-.06-.5-.06-.74Z" />
+                <path class="cls-13" d="m87.72,139.14s1.45,1.73,3.74,1.73c1.77,0,3.48-1.37,3.48-3.42,0-2.17-1.83-3.32-3.72-3.32h-.96l-.24-.6,3.9-4.56c.3-.36.62-.64.62-.64v-.04s-.38.04-1.08.04h-5.71v-.8h7.98v.6l-4.5,5.2c1.67,0,4.6.84,4.6,4.12,0,2.39-2.01,4.26-4.42,4.26-2.65,0-4.34-1.93-4.34-1.93l.64-.64Z" />
+                <g>
+                    <path class="cls-20" d="m61.23,132.6c.18-.3.39-.57.63-.82l-2.08-2.28c-.52.5-.97,1.08-1.32,1.72l2.77,1.38Z" />
+                    <path class="cls-1" d="m66.34,130.98c.32.14.61.33.87.55l2.09-2.28c-.55-.47-1.17-.87-1.85-1.15l-1.11,2.89Z" />
+                    <path class="cls-4" d="m71.11,131.67l-2.77,1.38c.13.31.23.64.28.98l3.08-.29c-.09-.73-.29-1.42-.59-2.07" />
+                    <path class="cls-11" d="m68.15,132.65l2.77-1.38c-.34-.64-.78-1.21-1.29-1.72l-2.09,2.28c.24.24.44.52.61.82" />
+                    <path class="cls-5" d="m60.68,134.62c0-.06,0-.12,0-.19l-3.08-.28c0,.15-.02.31-.02.46,0,.59.07,1.16.21,1.71l2.97-.85c-.06-.28-.09-.56-.09-.86" />
+                    <path class="cls-2" d="m67.76,137.14c-.22.27-.47.5-.75.71l1.63,2.63c.6-.41,1.14-.91,1.59-1.48l-2.47-1.86Z" />
+                    <path class="cls-12" d="m68.67,134.62c0,.29-.03.58-.09.85l2.97.85c.14-.55.21-1.12.21-1.7,0-.15,0-.29-.01-.43l-3.08.29s0,.1,0,.14" />
+                    <path class="cls-15" d="m61.64,137.2l-2.46,1.87c.46.56,1,1.05,1.61,1.46l1.62-2.63c-.29-.2-.55-.43-.77-.7" />
+                    <path class="cls-8" d="m60.73,133.98c.06-.35.16-.68.29-.99l-2.77-1.38c-.31.65-.51,1.35-.61,2.09l3.08.28Z" />
+                    <path class="cls-7" d="m68.26,140.72l-1.62-2.63c-.29.17-.61.3-.95.39l.57,3.04c.71-.16,1.38-.44,2-.8" />
+                    <path class="cls-19" d="m68.46,135.89c-.11.32-.25.61-.43.89l2.47,1.86c.4-.58.72-1.21.93-1.9l-2.97-.85Z" />
+                    <path class="cls-14" d="m65.25,138.57c-.19.03-.38.04-.58.04-.16,0-.31,0-.46-.03l-.57,3.04c.34.05.68.08,1.04.08.39,0,.77-.03,1.15-.09l-.57-3.04Z" />
+                    <path class="cls-18" d="m64.93,130.63c.34.02.67.09.99.19l1.11-2.88c-.66-.23-1.37-.37-2.1-.4v3.09Z" />
+                    <path class="cls-6" d="m63.77,138.5c-.35-.08-.68-.21-.98-.37l-1.63,2.63c.63.36,1.31.62,2.03.78l.57-3.04Z" />
+                    <path class="cls-3" d="m63.48,130.81c.32-.1.66-.16,1.01-.18v-3.09c-.74.02-1.46.16-2.13.39l1.12,2.88Z" />
+                    <path class="cls-16" d="m61.37,136.85c-.2-.29-.36-.61-.47-.94l-2.97.85c.22.71.56,1.37.98,1.96l2.46-1.87Z" />
+                    <path class="cls-23" d="m62.2,131.48c.26-.21.55-.38.86-.52l-1.12-2.88c-.67.28-1.28.66-1.82,1.12l2.08,2.28Z" />
+                </g>
+            </g>
+            <g>
+                <path class="cls-17" d="m71.06,37.74c-.55,0-1,.45-1,1v31.1c0,.55.45,1,1,1s1-.45,1-1v-31.1c0-.55-.44-1-1-1Z" />
+                <path class="cls-17" d="m85.59,37.42c-.98,8.45-2.79,12.48-4.4,16.03-1.76,3.91-3.29,7.32-3.45,15.81,0,.46-.32.86-.77.96,0,0-.01,0-.02,0-.64.14-1.23-.35-1.22-1,.18-8.92,1.85-12.65,3.63-16.59,1.62-3.59,3.29-7.3,4.23-15.44.06-.55.55-.95,1.11-.88.55.06.94.56.88,1.11Z" />
+                <path class="cls-17" d="m59.16,68.23s-.01,0-.02,0c-.28-.13-.47-.4-.54-.7-.78-3.37-2.84-5.12-5.47-7.34-1.73-1.47-3.7-3.13-5.52-5.53-.33-.44-.25-1.07.19-1.4.44-.34,1.07-.25,1.4.19,1.69,2.22,3.49,3.75,5.22,5.22,2.75,2.33,5.21,4.4,6.12,8.43.18.81-.63,1.49-1.38,1.14Z" />
+                <path class="cls-17" d="m65.06,70.2s-.01,0-.02,0c-.43-.09-.74-.48-.77-.92-.84-13.55-2.08-15.28-6.74-21.81-.8-1.12-1.7-2.38-2.71-3.85-.31-.45-.19-1.07.26-1.39.46-.31,1.08-.19,1.39.26,1.01,1.46,1.9,2.71,2.69,3.82,4.81,6.74,6.24,8.72,7.11,22.86.04.66-.57,1.17-1.21,1.03Z" />
+                <path class="cls-17" d="m97.53,43.08c-.14,6.82-3.62,10.18-7,13.43-3,2.89-5.86,5.65-6.74,10.84-.05.32-.25.6-.54.74,0,0-.01,0-.02.01-.72.35-1.55-.27-1.41-1.05,1.01-5.89,4.33-9.09,7.32-11.97,3.23-3.1,6.27-6.04,6.39-12.03,0-.55.46-.98,1-.98h.02c.55.01.99.47.98,1.02Z" />
+                <path class="cls-10" d="m83.49,17.54c-.87-1.62-3.32-1.02-3.36.82-.05,2.92,1.02,9.65.96,14.47-.12,9.1-2.5,13.24,1.55,14.28,4.75,1.22,5.75-4.81,5.14-13.9-.35-5.21-2.57-12.48-4.28-15.67Z" />
+                <path class="cls-24" d="m44.8,37.66c2.08-.42.72,5.91,3.26,9.78,1.12,1.7,2.44-1.55,3.29,2.17.99,4.33,6.61,7.96,3.29,10.6-3.54,2.82-11.95-4.42-11.95-17.72,0-2.62.78-4.56,2.11-4.83Z" />
+                <path class="cls-22" d="m93.29,43.8c-.58-1.89-2.73-8-1.24-8.75,1.72-.87-2.61-9.23-.17-10.31,2.61-1.16,4.02,7.29,5.91,8.32,1.92,1.04,1.98,6.98.84,10.57-.26.81.82.22.54,2.32-.45,3.32-4.59,9.09-7.72,8.95-2.55-.12,1.18-5.22.59-8.01-.72-3.4,1.46-2.36,1.24-3.09Z" />
+                <path class="cls-21" d="m73.83,16.22c-.54-1.39-1.66-2.08-2.79-2.08s-2.24.69-2.78,2.08c-1.29,3.34-2.89,28.38-2.89,31.94,0,3.13,2.54,5.67,5.67,5.67s5.67-2.54,5.67-5.67c0-3.56-1.59-28.6-2.88-31.94Z" />
+                <path class="cls-9" d="m59.72,37.6c.6-.9.95-1.98.95-3.14,0-1.45-.55-2.77-1.44-3.77,1.18-.91,1.95-2.32,1.95-3.92,0-.99-.3-1.92-.8-2.69,1.06-.6,1.79-1.72,1.81-3.03.02-1.96-1.55-3.56-3.5-3.58-1.96-.02-3.56,1.55-3.58,3.5,0,.33.05.64.13.94-2.26.46-3.97,2.46-3.97,4.86,0,1.04.32,2.01.87,2.8-1.67.99-2.8,2.8-2.8,4.88s1.13,3.91,2.82,4.89c-.6.9-.95,1.98-.95,3.14,0,3.13,2.54,5.67,5.67,5.67s5.67-2.54,5.67-5.67c0-2.09-1.13-3.91-2.82-4.89Z" />
+            </g>
+        </svg>-->
+    </div>
+
+    <style>
+        p {
+            line-height: 30px;
+        }
+
+        .clas li {
+            padding-bottom: 12px;
+            line-height: 30px;
+        }
+
+        nav {
+            background-color: #28a745;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            position: sticky;
+            top: 0px;
+        }
+
+        .show-list {
+            display: block;
+        }
+
+        /*new navbar*/
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .wrapper {
+            background: #008000;
+            z-index: 2;
+            position: relative;
+            width: 100%;
+            overflow-x: clip;
+        }
+
+        .wrapper nav {
+            position: relative;
+            display: flex;
+            max-width: calc(100% - 0px);
+            margin: 0 auto;
+            height: 50px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav .content {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .content .links {
+            margin-left: 5px;
+            display: flex;
+        }
+
+        .content .links li {
+            list-style: none;
+            /*line-height: 70px;*/
+        }
+
+        .content .links.tm li a {
+            font-size: 14px;
+            font-weight: 900;
+            z-index: -1;
+        }
+
+        .content .links.en li a {
+            font-size: 18px;
+            font-weight: 500;
+            font-family: var(--font-family-sans-serif);
+            padding-left: 24px;
+        }
+
+        .content .links li a,
+        .content .links li label {
+            color: #fff;
+            padding: 9px 11px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .content .links li label {
+            display: none;
+        }
+
+        .content .links li a:hover,
+        .content .links li label:hover {
+            background: #ffffff;
+            text-decoration: none;
+            color: #0b591d;
+        }
+
+        .menu-enable {
+            background: #fff;
+            color: green !important;
+        }
+
+        .wrapper .menu-icon {
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            line-height: 70px;
+            width: 70px;
+            text-align: center;
+        }
+
+        .wrapper .menu-icon {
+            display: none;
+        }
+
+        .wrapper #show-search:checked~.search-box {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .search-box input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            font-size: 17px;
+            color: #fff;
+            background: #28a745;
+            padding: 0 100px 0 15px;
+        }
+
+        .search-box input::placeholder {
+            color: #f2f2f2;
+        }
+
+        .search-box .go-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            line-height: 60px;
+            width: 70px;
+            background: #28a745;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .wrapper input[type="checkbox"] {
+            display: none;
+        }
+
+        /* Dropdown Menu code start */
+        .content .links ul {
+            position: absolute;
+            background: #28a745;
+            top: 80px;
+            z-index: 2;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .sticky {
+            position: -webkit-sticky !important;
+            /* Safari */
+            position: sticky !important;
+            top: 0 !important;
+        }
+
+        .content .links li:hover>ul {
+            top: 41px;
+            opacity: 1;
+            visibility: visible;
+            transition: all 0.3s ease;
+            min-width: 180px;
+        }
+
+        .content .links ul li a {
+            display: block;
+            width: 100%;
+            /*line-height: 30px;*/
+            border-radius: 0px !important;
+        }
+
+        .content .links ul ul {
+            position: absolute;
+            top: 0;
+            right: calc(-100% + 8px);
+        }
+
+        .content .links ul li {
+            position: relative;
+        }
+
+        .content .links ul li:hover ul {
+            top: 0;
+        }
+
+        /* Responsive code start */
+        @media screen and (max-width: 1250px) {
+            .wrapper nav {
+                max-width: 100%;
+                padding: 0 20px;
+            }
+
+            nav .content .links {
+                margin-left: 30px;
+            }
+
+            .content .links li a {
+                padding: 8px 13px;
+            }
+
+            .wrapper .search-box {
+                max-width: calc(100% - 100px);
+            }
+
+            .wrapper .search-box input {
+                padding: 0 100px 0 15px;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            .wrapper .menu-icon {
+                display: block;
+            }
+
+            .wrapper #show-menu:checked~.menu-icon i::before {
+                content: "\f00d";
+                position: fixed;
+                top: 70px;
+                z-index: 999;
+            }
+
+            nav .content .links {
+                display: block;
+                position: fixed;
+                background: #055705;
+                height: 100%;
+                width: 100%;
+                top: 0px;
+                left: -100%;
+                margin-left: 0;
+                max-width: 350px;
+                overflow-y: auto;
+                padding-bottom: 100px;
+                transition: all 0.3s ease;
+            }
+
+            nav #show-menu:checked~.content .links {
+                left: 0%;
+            }
+
+            .content .links li {
+                margin: 15px 20px;
+            }
+
+            .content .links li a,
+            .content .links li label {
+                line-height: 40px;
+                font-size: 14px;
+                display: block;
+                padding: 8px 18px;
+                font-weight: bold;
+                cursor: pointer;
+                font-family: var(--font-family-sans-serif);
+            }
+
+            .content .links li a.desktop-link {
+                display: none;
+            }
+
+            /* dropdown responsive code start */
+            .content .links ul,
+            .content .links ul ul {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                background: none;
+                max-height: 0px;
+                overflow: hidden;
+            }
+
+            .content .links #show-features:checked~ul,
+            .content .links #show-services:checked~ul,
+            .content .links #show-services1:checked~ul,
+            .content .links #show-services2:checked~ul,
+            .content .links #show-services3:checked~ul,
+            .content .links #show-services4:checked~ul,
+            .content .links #show-services4:checked~ul,
+            .content .links #show-services6:checked~ul,
+            .content .links #show-items:checked~ul {
+                max-height: 100%;
+                background: #6f7465;
+                border-radius: 19px;
+                margin-top: 8px;
+            }
+
+            .content .links ul li {
+                margin: 7px 20px;
+            }
+
+            .content .links ul li a {
+                font-size: 18px;
+                line-height: 30px;
+                border-radius: 5px !important;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .wrapper nav {
+                padding: 0 10px;
+            }
+
+            .wrapper .search-box {
+                max-width: calc(100% - 70px);
+            }
+
+            .wrapper .search-box .go-icon {
+                width: 30px;
+                right: 0;
+            }
+
+            .wrapper .search-box input {
+                padding-right: 30px;
+            }
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        @media screen and (min-width: 1300px) {
+            nav .content {
+                max-width: 1200px;
+            }
+        }
+
+        /*new nav bar*/
+    </style>
+    <script>
+        function viewdrop(no) {
+            // alert(no);
+            let thisli = document.querySelector('li.nav-item.dropdown.num-' + no);
+            let dropdowns = thisli.querySelector('div.dropdown-menu.num-' + no);
+            console.log(dropdowns.classList[1]);
+            dropdowns.classList.add("show-list");
+        }
+
+        function hidedrop(no) {
+            let thisli = document.querySelector('li.nav-item.dropdown.num-' + no);
+            let dropdowns = thisli.querySelector('div.dropdown-menu.num-' + no);
+            console.log(dropdowns.classList[1]);
+            setTimeout(() => {
+                dropdowns.classList.remove("show-list")
+            }, 2000)
+        }
+    </script>
+    <style>
+        .nas-icon {
+            position: absolute;
+            top: 34px;
+            right: 79px;
+            width: 6% !important;
+            background: #e0ede0;
+            border-radius: 0px;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            49% {
+                opacity: 0.5;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        blink {
+            animation: blink 1s infinite;
+        }
+    </style>
+    <!-- =============================================================================== --><style>
+.news-img img {
+    filter: drop-shadow(2px 4px 6px);
+    border-radius: 5px;
+    object-fit: fill;
+    max-height: 100px;
+}
+
+.use-flex-same-hw {
+    display: flex;
+}
+
+object {
+    width: 28px;
+    filter: drop-shadow(-2px 0px 0px black);
+}
+
+.fa-seedling::before {
+    color: #4c4cc6;
+}
+
+.card-scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* width */
+.card-scroll::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+.card-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.card-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.card-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+</style>
+<div ng-controller="indexCtrl" ng-init="base_url='https://www.tnagrisnet.tn.gov.in/';lang=''" class="ng-scope">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active">
+
+
+            </li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            <li data-target="#myCarouse1" data-slide-to="3" class=""></li>
+            <li data-target="#myCarouse1" data-slide-to="4" class=""></li>
+            <li data-target="#myCarouse1" data-slide-to="5" class=""></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="first-slide" src="https://www.tnagrisnet.tn.gov.in/includes/bg/1.png" alt="Slide 1">
+
+
+            </div>
+            <div class="carousel-item ">
+                <img class="first-slide" src="https://www.tnagrisnet.tn.gov.in/includes/bg/2.png" alt="Slide 1">
+
+
+            </div>
+            <div class="carousel-item ">
+                <img class="first-slide" src="https://www.tnagrisnet.tn.gov.in/includes/bg/3.png" alt="Slide 1">
+
+
+            </div>
+            <div class="carousel-item ">
+                <img class="first-slide" src="https://www.tnagrisnet.tn.gov.in/includes/bg/4.png" alt="Slide 1">
+
+
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide" src="https://www.tnagrisnet.tn.gov.in/includes/bg/5.png" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide" src="https://www.tnagrisnet.tn.gov.in/includes/bg/6.png" alt="Slide 2">
+            </div>
+
+
+
+        </div>
+        <div ng-class="{
+    'active': leaving || (active &amp;&amp; !entering),
+    'prev': (next || active) &amp;&amp; direction=='prev',
+    'next': (next || active) &amp;&amp; direction=='next',
+    'right': direction=='prev',
+    'left': direction=='next'
+  }" class="carousel-control-prev item text-center ng-isolate-scope" ng-transclude="" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon ng-scope" aria-hidden="true"></span>
+            <span class="sr-only ng-scope">Previous</span>
+        </div>
+        <div ng-class="{
+    'active': leaving || (active &amp;&amp; !entering),
+    'prev': (next || active) &amp;&amp; direction=='prev',
+    'next': (next || active) &amp;&amp; direction=='next',
+    'right': direction=='prev',
+    'left': direction=='next'
+  }" class="carousel-control-next item text-center ng-isolate-scope" ng-transclude="" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon ng-scope" aria-hidden="true"></span>
+            <span class="sr-only ng-scope">Next</span>
+        </div>
+    </div>
+    <!-- svg start -->
+    <!-- svg end -->
+    <!-- <section class="full-screen-scrolling-tn-page"> -->
+    <div class="container">
+
+        <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Marketing messaging and featurettes
+    ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+        <div class="welcome graybg">
+            <div class="container-fluid">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <div class="card panel-default over-flow-hd">
+                            <div class="card-header">
+                                <span class="glyphicon glyphicon-list-alt"></span>
+                                <b class="news-title-model ng-binding">செய்திகள்</b>
+                            </div>
+                            <div class="card-body same-h-flex-card">
+                                <div class="row ">
+                                    <div class="col-xs-12">
+                                        <ul class="demo1 marquee-news">
+                                            <!-- ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">இன்று (24.06.2026) தலைமைச் செயலகத்தில், மாண்புமிகு உணவு மற்றும் உணவுப்பொருள் வழங்கல் துறை அமைச்சர் திரு. பி. வெங்கடரமணன், மாண்புமிகு கூட்டுறவுத் துறை அமைச்சர் திரு. வ. காந்திராஜ், மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு. ஆர். வினோத் ஆகியோர் முன்னிலையில், தென்மேற்கு பருவமழை தொடங்கியுள்ளதையொட்டி முன்னெச்சரிக்கை நடவடிக்கையாக அறுவடை செய்யப்படும் நெல்மணிகளை நேரடி நெல் கொள்முதல் மையங்களில் கொள்முதல் செய்தல், பாதுகாப்பாக வைத்தல், அரவைக்கு அனுப்புதல் ஆகியவை தொடர்பாக ஆய்வுக் கூட்டம் நடைபெற்றது.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/59" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/59"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/MoA-9.jpeg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">சென்னை, ராயப்பேட்டையில் தேசிய மாம்பழ திருவிழாவை (National Mango Festival 2026) மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு. வினோத் அவர்கள் குத்துவிளக்கு ஏற்றி துவக்கி வைத்து, அங்கு அமைக்கப்பட்டிருந்த மாம்பழ அரங்குகளை பார்வையிட்டு, வேளாண் தொழில் முனைவோர்களுடன் கலந்துரையாடினார்.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/58" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/58"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/moa8.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">மாண்புமிகு வேளாண்மை -உழவர் நலத்துறை அமைச்சர் திரு.வினோத் அவர்கள் தலைமையில், 2026-2027 ஆம் ஆண்டிற்கான வேளாண்மை நிதிநிலை அறிக்கை தொடர்பாக தோட்டக்கலை மற்றும் மலைப் பயிர்கள் துறை சார்ந்த ஆலோசனைக் கூட்டம் நடைபெற்றது.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/57" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/57"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/moa7.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு.வினோத் அவர்கள் தலைமையில் 2026-2027 ஆம் ஆண்டிற்கான வேளாண்மை நிதிநிலை அறிக்கை தொடர்பாக துறை சார்ந்த ஆலோசனைக் கூட்டம் நடைபெற்றது.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/56" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/56"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/Moa6.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">ரூ.134.83 கோடியில் குறுவை சிறப்புத் தொகுப்புத் திட்டம் - 2026</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/55" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/55"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/KSP-26.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">“பயறு வகைகளில் தன்னிறைவுக்கான இயக்கத்தில்” பயறுவகைகள் பதப்படுத்தும் நிலையங்கள் அமைக்க ஆர்வமுள்ள, உழவர் உற்பத்தியாளர் நிறுவனங்கள்/தொகுப்பு அளவிலான கூட்டமைப்புகள்/தொடக்க வேளாண்மை கூட்டுறவு சங்கங்கள் தனிநபர்கள் அதிகபட்சமாக 25 இலட்சம் ரூபாய் வரை மானியம் பெற மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு. ர.வினோத் அவர்கள் தகவல்</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/54" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/54"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/MOA-press-release.jpeg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு. ர.வினோத் அவர்கள், நடப்பு 2026-27ஆம் ஆண்டிற்கான வேளாண்மைத்துறையின் செயல்பாடுகள் குறித்து அனைத்து மாவட்ட வேளாண்மை இணை இயக்குநர்களுடனும், வேளாண்மை இயக்குநரக அனைத்து தொழில்நுட்ப அலுவலர்களுடனும், அமைச்சுப் பணியாளர்களுடனும் ஆய்வு மேற்கொண்டார்.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/53" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/53"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/MoA5.jpeg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">புதுதில்லியில் மாண்புமிகு ஒன்றிய வேளாண்மை மற்றும் விவசாயிகள் நலத்துறை அமைச்சர் திரு. சிவராஜ் சிங் சௌகான் அவர்கள் தலைமையில் நடைபெற்ற தேசிய விவசாய மாநாட்டில், தமிழ்நாடு அரசின் சார்பில் மாண்புமிகு வேளாண்மை மற்றும் உழவர் நலத்துறை அமைச்சர் திரு. ஆர்.வினோத் அவர்கள், வேளாண்மை மற்றும் உழவர் நலத்துறை செயலாளர் / வேளாண்மை உற்பத்தி ஆணையர் முனைவர் பொ. சங்கர், இ.ஆ.ப., மற்றும் வேளாண்மை இயக்குநர் முனைவர் க.வீ. முரளிதரன், இ.ஆ.ப., ஆகியோர் கலந்து கொண்டனர்.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/52" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/52"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/MOA-4.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">சென்னை, செம்மொழி பூங்கா மற்றும் கலைஞர் நூற்றாண்டு பூங்காவில் மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு. ர.வினோத் அவர்கள் நேரில் சென்று பார்வையிட்டு ஆய்வு செய்தார்.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/51" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/51"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/rsz_moa_3.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு. ர.வினோத் அவர்கள் தலைமையில் வேளாண்மை - உழவர் நலத்துறையின் கீழ் உள்ள வேளாண்மை பொறியியல் துறை, தமிழ்நாடு வேளாண்மை பல்கலைக்கழகம் மற்றும் விதை சான்று இயக்ககம் ஆகியவற்றின் செயல்பாடுகள் குறித்து ஆய்வுக் கூட்டம் நடைபெற்றது.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/50" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/50"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/MoA-2.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு ர. வினோத் அவர்களை உலக சுகாதார நிபுணரும், M. S. Swaminathan Research Foundation தலைவர் டாக்டர் சௌமியா சுவாமிநாதன் அவர்கள் மரியாதை நிமித்தமாக சந்தித்தார்.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/49" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/49"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/MoA1.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">மாண்புமிகு வேளாண்மை - உழவர் நலத்துறை அமைச்சர் திரு.ர.வினோத் அவர்கள், வேளாண்மைத் துறையின் செயல்பாடுகள் குறித்து வேளாண்மை இயக்குநர் முனைவர். க.வீ. முரளிதரன், இ.ஆ.ப., அவர்களின் முன்னிலையில் ஆய்வு மேற்கொண்டார்.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/48" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/48"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/PR1.jpeg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">உழவர்கள் விவசாய அடையாள எண் பெற்றிட கடைசி நாள் 31.05.2026 ஆகும். 31.05.2026அன்றுக்குள் தவறாமல் பதிவு செய்துகொள்ளுமாறு கேட்டுகொள்ளப்படுகிறது.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/47" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/47"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR4-561a0.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result --><li class="news-item ng-scope" ng-repeat="item in news_result">
+                                                <div class="row">
+                                                    <div class="col-md-8 news-feed">
+
+                                                        <p ng-bind-html="lang=='en'?item.title:item.title" class="ng-binding">குறுவை நெல் சாகுபடி மற்றும் முக்கிய அணைகளின் நீர் இருப்பு நிலைகள் குறித்து வேளாண்மை மற்றும் உழவர் நலத்துறை, நீர்வளத்துறை உயர் அலுவலர்களுடன் ஆய்வுக் கூட்டம்.</p>
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/46" class="ng-binding">&nbsp;மேலும் படிக்க..</a>
+                                                    </div>
+                                                    <div class="col-md-3 news-img">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/home/newsdetails/tm/46"><img src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/Kuruvai-Review-meeting-927aa.jpg" style="width: 100%; height: 100%" class="img-fluid"></a>
+                                                    </div>
+                                                </div>
+                                            </li><!-- end ngRepeat: item in news_result -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <h3 class="important-headting ng-binding">முக்கியமான இணைப்புகள்</h3>
+                        <div class="card card-out">
+                            <div class="card-body same-h-flex-card">
+                                <div class="list-group card-scroll">
+                                    <ul class="marquee-news">
+
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/data_farmer.jpg">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://play.google.com/store/apps/details?id=com.tn.amnex.farmersahayakapp&amp;hl=en_IN" class="ng-binding">AgriStack Farmer Registry  (Sahayak TN mobile App )
+                                                            <b class="badge badge-info"></b> </a>
+                                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/new.gif">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/forest.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a ng-href="https://www.tnagrisnet.tn.gov.in/includes/tnAgro_tm.pdf" target="_blank" class="ng-binding" href="https://www.tnagrisnet.tn.gov.in/includes/tnAgro_tm.pdf">
+                                                            தமிழ்நாடு வேளாண்காடுகள் வளர்ப்புக் கொள்கை 2026
+                                                            <b class="badge badge-info"></b>
+                                                        </a>
+                                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/new.gif">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/rec.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/uattII" class="ng-binding">  உழவர் அலுவலர் தொடர்புத் திட்டம் 2.O
+                                                            <b class="badge badge-info"></b> </a>
+                                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/new.gif">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/assets/dashboard.jpg">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://tnagriculture.in/agri-petition/register-form">
+
+                                                            </a></p><p><a href="https://tnagriculture.in/agri-petition/register-form" class="ng-binding">உழவரைத் தேடி வேளாண்மை-உழவர் நலத்துறை
+                                                            </a></p><a href="https://tnagriculture.in/agri-petition/register-form">
+
+
+
+                                                        </a>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/assets/dashboard.jpg">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/KaviaDP/register" class="ng-binding">முதலமைச்சரின் உழவர் நல சேவை மையம்</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/img/icons/19.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/KSP/printCropPlan/">
+                                                            </a></p><p><a href="https://www.tnagrisnet.tn.gov.in/KSP/printCropPlan/" class="ng-binding">குறுவை சாகுபடி சிறப்புத் தொகுப்புத் திட்டம் - 2026
+                                                            </a></p><a href="https://www.tnagrisnet.tn.gov.in/KSP/printCropPlan/">
+
+
+                                                        </a>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img src="https://www.tnagrisnet.tn.gov.in/includes/img/icons/19.png" class="img-fluid img-thumbnail rounded mx-auto d-block">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/KSP/">
+                                                            </a></p><p><a href="https://www.tnagrisnet.tn.gov.in/KSP/" class="ng-binding">குறுவை சாகுபடி
+                                                            </a></p><a href="https://www.tnagrisnet.tn.gov.in/KSP/">
+                                                            <p class="ng-binding">Login -(AO/AAO/AHO/AAO-AB)
+                                                            </p>
+                                                        </a>
+
+
+                                                        
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <!-- <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img"
+                                                        src="https://www.tnagrisnet.tn.gov.in/includes/img/icons/1.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://tnhorticulture.tn.gov.in/temp_work/expo-login">
+                                                            <p>{{lang=='en'?'வேளாண் கண்காட்சி மற்றும் கருத்தரங்கம் அரங்கம் முன்பதிவு
+':'வேளாண் கண்காட்சி மற்றும் கருத்தரங்கம் அரங்கம் முன்பதிவு
+'}}</p>
+
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>-->
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/img/icons/1.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/people_app_demo/bene#" class="ng-binding">
+                                                             பயனாளிகளின் பட்டியல் 
+                                                            2025-26</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/img/important_link/register.gif">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/KaviaDP/scheme_register" class="ng-binding">
+                                                             பயனாளிகளின் விண்ணப்பப் படிவம்</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <!--  <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img"
+                                                        src="https://www.tnagrisnet.tn.gov.in/includes/img/logoPmfby.jpg">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a
+                                                            href="https://www.tnagrisnet.tn.gov.in/CIS/login/tender_docs">{{lang=="en"?"GOVERNMENT OF TAMIL NADU, DEPARTMENT OF AGRICULTURE - INVITATION OF e BIDS FOR IMPLEMENTATION OF  PRADHAN MANTRI FASAL BIMA YOJANA(PMFBY) ADOPTING 60:130 MODEL - IMPLEMENTATION PERIOD -KHARIF, SPECIAL & RABI SEASONS OF  2024-2025 AND 2025-26":"GOVERNMENT OF TAMIL NADU, DEPARTMENT OF AGRICULTURE - INVITATION OF e BIDS FOR IMPLEMENTATION OF  PRADHAN MANTRI FASAL BIMA YOJANA(PMFBY) ADOPTING 60:130 MODEL - IMPLEMENTATION PERIOD -KHARIF, SPECIAL & RABI SEASONS OF  2024-2025 AND 2025-26"}}
+                                                            <img src="https://www.tnagrisnet.tn.gov.in/includes/img/new.gif" /></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>-->
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/images/tender.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/includes/tend.pdf">
+                                                            </a></p><p><a href="https://www.tnagrisnet.tn.gov.in/includes/tend.pdf" class="ng-binding">Auction for Disposal/Sale of obselete Office Vehicle
+                                                            </a></p><a href="https://www.tnagrisnet.tn.gov.in/includes/tend.pdf">
+                                                        </a>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/images/tender.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="http://115.243.209.84/ARS/more/tender">
+                                                            </a></p><p><a href="http://115.243.209.84/ARS/more/tender" class="ng-binding">தமிழ்நாடு பாசன வேளாண்மை நவீனமயமாக்கல் திட்டம்
+                                                            </a></p><a href="http://115.243.209.84/ARS/more/tender">
+                                                        </a>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/img/icons/3.png">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/fcms/aaoVisit/#/agro/reg-tree" class="ng-binding">இலவச மரக்கன்று முன்பதிவு</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/images/calendar.jpg">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="http://tnagriculture.in/calendar"> வேளாண்மை மற்றும்
+                                                            சுற்றுச்சூழல் தினம்- நாட்காட்டி
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+
+
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/eseva.svg">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/esevai" class="ng-binding">வேளாண் இ சேவை மையம்</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="important-links-home">
+                                            <div class="row img-cont-align">
+                                                <div class="col-2 col-sm-2 col-2 col-md-2 align-items-start">
+                                                    <img class="scheames-rel-img" src="https://www.tnagrisnet.tn.gov.in/includes/img/important_link/register.gif">
+                                                </div>
+                                                <div class="col-10 col-sm-10 col-10 col-md-10">
+                                                    <p class="respons-txt">
+                                                        <a href="https://www.tnagrisnet.tn.gov.in/daesi" class="ng-binding">வேளாண் விரிவாக்க சேவைக்கான ஓராண்டு பட்டயப் (DAESI) படிப்புக்கு விண்ணப்பிக்க</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <ul>
+                                    <li class="view-more">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <a href="https://www.tnagrisnet.tn.gov.in/home/important_links/" class="view-all-link"> View All</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header bg-danger text-white">
+                <b>
+                    செய்திக் குறிப்புகள்                </b>
+            </div>
+
+            <div class="card-body">
+                <ul class="list-group">
+                                                            <li class="list-group-item">
+                        <i class="fa fa-file-pdf-o text-danger"></i>
+
+                        <a href="https://www.tnagrisnet.tn.gov.in/assets/uploads/press_release/DIPR---P-R-NO-218---Honble-CM-Press-Release---Agri-Dept---Kuruvai-Special-Package-Scheme---Date---12-6-2026.pdf" target="_blank">
+
+                            குறுவை நெல் சாகுபடியை ஊக்குவிக்கும் வகையில் டெல்டா மற்றும் டெல்டா அல்லாத மாவட்டங்களில் ரூ.134.83 கோடி மதிப்பீட்டில் குறுவை சிறப்புத் தொகுப்புத் திட்டம் - 2026"
+                        </a>
+
+                        <small class="text-muted float-right">
+                            12-06-2026                        </small>
+                    </li>
+                                                        </ul>
+
+                <div class="text-right mt-2">
+                    <a href="https://www.tnagrisnet.tn.gov.in/home/press_release">
+                        View All &gt;&gt;
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- </section> -->
+        <div class="section-aj">
+            <div class="container-fluid">
+                <h1 class="mb-5 text-center lead ng-binding" style="font-weight: 700;">
+                    உழவர் செயலி பதிவிறக்கம்
+                </h1>
+                <div class="row" style="align-items: center;">
+                    <div class="col-md-5 col-lg-5 col-sm-12">
+                        <a href="https://apps.apple.com/us/app/uzhavan/id1405906962?ls=1" class="app-link r-arrow"><img src="https://www.tnagrisnet.tn.gov.in/includes/img/AppStoreBlack.png"></a>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-sm-12">
+                        <img class="app-img" src="https://www.tnagrisnet.tn.gov.in/includes/img/uzhavan.png">
+                    </div>
+                    <div class="col-md-5 col-lg-5 col-sm-12 text-right">
+                        <a href="https://play.google.com/store/apps/details?id=agri.tnagri" class="app-link l-arrow"><img src="https://www.tnagrisnet.tn.gov.in/includes/img/GooglePlayBlack.png"></a>
+                    </div>
+                </div>
+                <div class="text-center w-100">
+                    <a href="https://www.tnagrisnet.tn.gov.in/people_app/login/regDist">
+                        <!--   -->
+                        <h4 class="btn app-counts ng-binding">பயனர்களின் எண்ணிக்கை
+
+                            2055196
+                        </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-aj">
+            <div class="container-fluid">
+                <h2 class="mb-5 text-center lead ng-binding" style="font-weight: 700;">
+                    உள்கட்டமைப்பு
+                </h2>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/aec_list/en">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/1.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">வேளாண் விரிவாக்க மையம் </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/6/en">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/8.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">விதை சுத்திகரிப்பு நிலையம் </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/7/en">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/9.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">உயிர் உர உற்பத்தி மையம்</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/8/en ">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/7.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">நுண்ணூட்டக்கலவை உற்பத்தி மையம்
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/9/en ">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/2.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">ஒட்டுண்ணி இனப்பெருக்க மையம்</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/10/en ">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/5.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">மாநில விதை பண்ணை</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/11/en">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/4.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">மாநில எண்ணெய் வித்துக்கள் பண்ணை </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/12/en">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/3.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">தென்னை நாற்றுப்பண்ணை</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/13/en ">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/10.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">தென்னை ஒட்டு பணி மையம்</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/14/en">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/6.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">உயிரியல் கட்டுப்பாட்டு ஆய்வகம் </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <a href="https://www.tnagrisnet.tn.gov.in/ARS/offices/other_list/15/en">
+                            <div class="card text-center infra-card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="https://www.tnagrisnet.tn.gov.in/includes/img/11.png" style="width:100px">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="ng-binding">நீல பச்சை பாசி உற்பத்தி மையம்
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- </section> -->
+        <div class="container-fluid" id="test">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header text-white bg-success">
+                            <span class="glyphicon glyphicon-list-alt"></span><b class="ng-binding">படத் தொகுப்பு</b>
+                        </div>
+                        <div class="card-body same-h-flex-card">
+                            <div class="row">
+                                <!-- ngRepeat: item in image_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in image_list">
+                                    <a href="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR4.jpg" data-lightbox="photos" data-title="உழவர்கள் விவசாய அடையாள எண் பெற்றிட கடைசி நாள் 31.05.2026 ஆகும். அன்றுக்குள் தவறாமல் பதிவு செய்துகொள்ளுமாறு கேட்டுகொள்ளப்படுகிறது.">
+                                        <img class="img-thumbnail img-fluid gl-imgresize" src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR4.jpg">
+                                    </a>
+                                </div><!-- end ngRepeat: item in image_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in image_list">
+                                    <a href="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR3.jpg" data-lightbox="photos" data-title="பிரதம மந்திரி கௌரவ நிதி திட்டம் (பி.எம்.கிசான்) மூலம் நிதி பெறும் அனைத்து விவசாயிகளுக்கும் விவசாயி அடையாள எண் (Farmer ID) கட்டாயமாக்கப்பட்டுள்ளது.">
+                                        <img class="img-thumbnail img-fluid gl-imgresize" src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR3.jpg">
+                                    </a>
+                                </div><!-- end ngRepeat: item in image_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in image_list">
+                                    <a href="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR2-48f6f.jpg" data-lightbox="photos" data-title="FARMER REGISTRY TN செயலி மூலம் இதுவரை பதிவு செய்யாத விவசாயிகள் பதிவு செய்யுமாறு கேட்டுகொள்ளப்படுகிறது.">
+                                        <img class="img-thumbnail img-fluid gl-imgresize" src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR2-48f6f.jpg">
+                                    </a>
+                                </div><!-- end ngRepeat: item in image_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in image_list">
+                                    <a href="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR1.jpg" data-lightbox="photos" data-title="FARMER REGISTRY TN செயலி மூலம் இதுவரை பதிவு செய்யாத விவசாயிகள் பதிவு செய்யுமாறு கேட்டுகொள்ளப்படுகிறது.">
+                                        <img class="img-thumbnail img-fluid gl-imgresize" src="https://www.tnagrisnet.tn.gov.in/assets/uploads/files/FR1.jpg">
+                                    </a>
+                                </div><!-- end ngRepeat: item in image_list -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-right">
+                                    <a class="ng-binding" href="https://www.tnagrisnet.tn.gov.in/home/image_gallery/">மேலும் படங்கள்..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header text-white bg-success">
+                            <span class="glyphicon glyphicon-list-alt"></span><b class="ng-binding">வீடியோ தொகுப்பு</b>
+                        </div>
+                        <div class="card-body same-h-flex-card">
+                            <div class="row">
+                                <!-- ngRepeat: item in video_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in video_list">
+
+                                    <iframe class="img-thumbnail  img-fluid" width="100%" ng-src="https://youtu.be/r32L4AaStwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://youtu.be/r32L4AaStwA"></iframe>
+                                </div><!-- end ngRepeat: item in video_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in video_list">
+
+                                    <iframe class="img-thumbnail  img-fluid" width="100%" ng-src="https://www.youtube.com/embed/z9BghBRD4r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/z9BghBRD4r4"></iframe>
+                                </div><!-- end ngRepeat: item in video_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in video_list">
+
+                                    <iframe class="img-thumbnail  img-fluid" width="100%" ng-src="https://www.youtube.com/embed/meWcuYfQqQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/meWcuYfQqQg"></iframe>
+                                </div><!-- end ngRepeat: item in video_list --><div class="col-md-6 gallery-img ng-scope" ng-repeat="item in video_list">
+
+                                    <iframe class="img-thumbnail  img-fluid" width="100%" ng-src="https://www.youtube.com/embed/BZS2Z_qCwDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/BZS2Z_qCwDI"></iframe>
+                                </div><!-- end ngRepeat: item in video_list -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-right">
+                                    <a class="ng-binding" href="https://www.youtube.com/@agridepttn/videos" target="_blank">மேலும் வீடியோக்கள்..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <!-- <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="featurette-heading text-center"></h2>
+      </div>
+      <div class="col-md-3 gallery-img pd20-30">
+        <img
+        class="img-thumbnail img-circle img-thumbnail-gallry-responsive"
+        src="https://www.tnagrisnet.tn.gov.in/includes/images/cm_1.jpeg"
+        />
+        <h4 class="leader-name text-center">
+        {{lang=='en'?'Thiru M.K. Stalin':'திரு M.K. ஸ்டாலின்'}}
+        </h4>
+        <h4 class="leader-desig text-center">
+        {{lang=="en"?"Hon'ble Chief Minister":"மாண்புமிகு முதலமைச்சர்"}}
+        </h4>
+      </div>
+      <div class="col-md-3 gallery-img pd20-30">
+        <img
+        class="img-thumbnail img-circle img-thumbnail-gallry-responsive"
+        
+        src="https://www.tnagrisnet.tn.gov.in/includes/images/agrimin.jpg"
+        />
+        <h4 class="leader-name text-center">
+        {{lang=='en'?'Thiru M.R.K. Panneerselvam':'திரு M.R.K. பன்னீர்செல்வம்'}}
+        </h4>
+        <h4 class="leader-desig text-center">
+        {{lang=="en"?"Hon'ble Agri Minister":"மாண்புமிகு வேளாண் அமைச்சர்"}}
+        </h4>
+      </div>
+      <div class="col-md-3 gallery-img pd20-30">
+        <img
+        class="img-thumbnail img-circle img-thumbnail-gallry-responsive"
+        
+        src="https://www.tnagrisnet.tn.gov.in/includes/images/apc.jpg"
+        />
+        <h4 class="leader-name text-center">
+        {{lang=='en'?'Thiru C.Samayamoorthy, IAS':'திரு C. சமயமூர்த்தி, IAS'}}
+        </h4>
+        <h4 class="leader-desig text-center">
+        {{lang=='en'?'Agriculture Production Commissioner &amp; Secretary':'வேளாண் உற்பத்தி ஆணையர் &amp; செயலாளர்'}}
+        </h4>
+      </div>
+      <div class="col-md-3 gallery-img pd20-30">
+        <img
+        class="img-thumbnail img-circle  img-thumbnail-gallry-responsive"
+        
+        src="https://www.tnagrisnet.tn.gov.in/includes/images/director.png"
+        />
+        <h4 class="leader-name text-center">
+        {{lang=='en'?'Thiru A.Annadurai , IAS':'திரு A. அண்ணாதுரை, IAS'}}
+        </h4>
+        <h4 class="leader-desig text-center">
+        {{lang=='en'?'Director of Agriculture':'வேளாண் இயக்குனர்'}}
+        </h4>
+      </div>
+    </div>
+  </div> -->
+    <div class="container-fluid graybg">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="featurette-heading text-center ng-binding">விருதுகள்</h2>
+            </div>
+            <div class="col-md-12 testimonials-main">
+                <section class="slider">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="inner-testimonials-w3ls">
+                                    <img src="https://www.tnagrisnet.tn.gov.in/includes/images/aw1.jpg" alt=" " class="img-responsive" style="widht: 500px; height: 300px">
+                                    <div class="testimonial-info-wthree">
+                                        <h5 class="ng-binding">கிருஷி கர்மன் விருது</h5>
+                                        <span class="ng-binding">உணவு தானிய உற்பத்தி</span>
+                                        <p class="para-w3-agileits ng-binding">
+                                            2015-16 ஆம் ஆண்டிற்கான உணவு தானிய உற்பத்தி சாதனைகளுக்காக இந்திய அரசு தமிழக அரசுக்கு விருது வழங்கியது.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner-testimonials-w3ls">
+                                    <img src="https://www.tnagrisnet.tn.gov.in/includes/images/aw2.jpg" alt=" " class="img-responsive" style="widht: 300px; height: 400px">
+                                    <div class="testimonial-info-wthree">
+                                        <!-- <h5>{{lang=="en"?"Best Practices Award":"சிறந்த பயிற்சிகள் விருது"}}</h5>
+                    <span>{{lang=="en"?"Pradhan Mantri Fasal Bima Yojana (PMFBY)":"​பிரதம​ மந்திரியின் பயிர் காப்பீட்டு திட்டம்"}}</span>
+                    <p class="para-w3-agileits">
+                      {{lang=="en"?"Agriculture Department was awarded with Best Practices award
+                      for maximum enrollement of non-loanee farmers under Pradhan
+                      Mantri Fasal Bima Yojana (PMFBY) by Government of TamilNadu":"​பிரதம​ மந்திரியின் பயிர் காப்பீட்டு திட்டத்தின் (PMFBY) கீழ் அதிக கடன் இல்லா விவசாயிகளை சேர்த்ததற்கு சிறந்த நடைமுறை விருது தமிழக அரசால் வழங்கப்பட்டது."}}
+                    </p>-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner-testimonials-w3ls">
+                                    <img src="https://www.tnagrisnet.tn.gov.in/includes/images/aw3.jpg" alt=" " class="img-responsive" style="widht: 300px; height: 400px">
+                                    <div class="testimonial-info-wthree">
+                                        <h5 class="ng-binding">ஸ்கோச் வெள்ளி விருது</h5>
+                                        <span class="ng-binding">​​​​​​​உழவன் செயலி </span>
+                                        <p class="para-w3-agileits ng-binding">
+                                            உழவன் செயலிக்காக&nbsp;ஸ்கோச் சில்வர் விருது பெறுவதற்கு வேளாண் துறைக்கு மாண்புமிகு முதல் அமைச்சர் வாழ்த்து தெரிவித்துள்ளார்.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <style>
+    .fas {
+        margin-right: 4px !important;
+        /*override*/
+    }
+
+    .pagination .fas {
+        margin-right: 0px !important;
+        /*override*/
+    }
+
+    .pagination a {
+        color: #fff;
+    }
+
+    .card ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+
+    .news-item {
+        padding: 4px 4px;
+        margin: 0px;
+        border-bottom: 1px dotted #555;
+    }
+
+    .news-feed {
+        margin: 10px;
+    }
+
+    .news-feed a {
+        background-color: #28a745;
+        color: #fff;
+        padding: 2px 12px;
+        border-radius: 7px;
+    }
+
+    .news-img {
+        padding: 15px;
+    }
+
+    .anyClass {
+        height: 350px;
+        overflow-y: scroll;
+    }
+
+    .leader-name {
+        color: #000000;
+        font-size: 17px;
+    }
+
+    .leader-desig {
+        color: #a3a375;
+        font-size: 15px;
+    }
+
+    .card-header:first-child {
+        overflow: hidden;
+        z-index: 1;
+        background: #28a745;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        height: 28px;
+        line-height: 2px;
+    }
+
+    .infra-card {
+        height: 180px;
+        margin-bottom: 23px;
+        padding: 6px 3px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px #b6b5b5;
+        border: none;
+    }
+
+    .infra-card img {
+        border-radius: 30px;
+        background: #fff;
+    }
+
+    .infra-card:hover {
+        background: #1f9849;
+        color: #fff;
+        filter: drop-shadow(1px 2px 2px #b6b5b5);
+        transition: transform 250ms;
+        transform: translateY(-10px);
+    }
+
+    a:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
+
+    a.app-link:hover {
+        padding: 10px;
+        transition: padding 250ms;
+    }
+    </style><!-- FOOTER -->
+<style>
+    .uiiw {
+        background: #28a745;
+        padding: 7px 10px;
+        margin: -10px;
+        border-radius: 50%;
+    }
+
+    .uiiw .check_on img {
+        /*width: 20px!important;*/
+        background: yellow;
+    }
+
+    div#userwayAccessibilityIcon {
+        position: fixed;
+        top: 75%;
+    }
+</style>
+<footer class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Activities</h5>
+                <ul style="list-style: none;">
+                    <li>
+                        <p class="proper"><i class="fa fa-arrow-right left-float" aria-hidden="true"></i> Uzhavar
+                            Aluvalar Thodarbu Thittam <b class="ft_bld">(UATT)</b></p>
+                    </li>
+                    <li>
+                        <p class="proper"><i class="fa fa-arrow-right left-float" aria-hidden="true"> </i> Collective
+                            Farming</p>
+                    </li>
+                    <li>
+                        <p class="proper"><i class="fa fa-arrow-right left-float" aria-hidden="true"> </i> TamilNadu
+                            Mission for Sustainable Dry Land Developement <b class="ft_bld">(TNMSDD)</b></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>NAVIGATION</h5>
+                <ul style="list-style: none;">
+                    <li>
+                        <p class="proper">
+                            <i class="fa fa-arrow-right left-float" aria-hidden="true"></i><a href="https://www.tnagrisnet.tn.gov.in/" target="_blank"> AGRISNET</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="proper">
+                            <i class="fa fa-arrow-right left-float" aria-hidden="true"></i> <a href="http://agritech.tnau.ac.in/" target="_blank">Agri Tech Portal</a>
+                    </p></li>
+                    <p></p>
+                    <li>
+                        <p class="proper">
+                            <select id="links" name="links" class="form-control">
+                                <option value="">Important Links</option>
+                                <!-- ngRepeat: item in links_list --><option value="1" ng-repeat="item in links_list" class="ng-binding ng-scope">PM-Kisan Samman Nidhi</option><!-- end ngRepeat: item in links_list --><option value="2" ng-repeat="item in links_list" class="ng-binding ng-scope">Pradhan Mantri Fasal Bima Yojana</option><!-- end ngRepeat: item in links_list --><option value="3" ng-repeat="item in links_list" class="ng-binding ng-scope">Digital Platform for Farm Mechanization and Technology</option><!-- end ngRepeat: item in links_list --><option value="4" ng-repeat="item in links_list" class="ng-binding ng-scope">Soil Health Card</option><!-- end ngRepeat: item in links_list --><option value="7" ng-repeat="item in links_list" class="ng-binding ng-scope">TN Farmer Registry</option><!-- end ngRepeat: item in links_list -->
+                            </select>
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Locate Us</h5>
+                <img src="https://www.tnagrisnet.tn.gov.in/includes/img/location.png" alt="Locate Us" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <h5>Contact Address</h5>
+                <p>Department of Agriculture,<br> Chepauk, Chennai-05<br> Phone : (044) 28583323<br> Email :
+                    coa.fcms@gmail.com</p>
+            </div>
+        </div>
+        <div class=" copyright text-center">
+
+            <p>© 2021 Agricuture. All rights reserved | Design by <a href="">IT-Team Department of Agriculture</a></p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- float icons -->
+    <a id="clicktop"></a>
+
+</footer>
+
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/popper.min.js"></script>
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/tether.min.js"></script>
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/bootstrap.min.js"></script>
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/jquery.jConveyorTicker.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/ie10-viewport-bug-workaround.js"></script>
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/jquery.dataTables.min.js"></script>
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/jquery.flexslider.js"></script>
+
+<!-- this -->
+<script src="https://www.tnagrisnet.tn.gov.in/includes/js/lightbox.min.js"></script>
+
+<script>
+    // alert(lang);
+    $(window).on('load', function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            start: function(slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $('.js-conveyor-example').jConveyorTicker({
+            reverse_elm: false
+        });
+    });
+
+    $(document).ready(function() {
+        var table = $('.example').DataTable();
+        $('#table-filter').on('change', function() {
+            table.columns(1).search(this.value).draw();
+        });
+    });
+
+
+    function changetheme(color) {
+        $('#mystyle').attr('href', 'https://www.tnagrisnet.tn.gov.in/includes/css/' + color);
+    }
+
+
+
+    $(document).ready(function() {
+
+        $("#font-sizeUp").click(function() {
+
+            $("body").css("font-size", "110%");
+
+        });
+
+        $("#font-sizenormal").click(function() {
+
+            $("body").css("font-size", "100%");
+
+        })
+
+        $("#font-sizeDown").click(function() {
+            $("body").css("font-size", "80%");
+
+        })
+    });
+
+
+
+    // nav font resize scroll skip content
+
+    function skipme() {
+        if ($(window).width() <= 600) {
+            window.scrollBy(0, 290);
+        } else {
+            window.scrollBy(0, 190);
+        }
+    }
+
+
+
+    // scroll up icon function
+    var btn = $('#clicktop');
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, '300');
+    });
+
+    /*************srurshkumar script start**************/
+    // show more  show hide
+    $(".show-more").click(function() {
+        if ($(".text").hasClass("show-more-height")) {
+            $(this).html('<i class="fa-solid fa-hands-holding"></i> Show Less');
+        } else {
+            $(this).html('<i class="fa-solid fa-hands-praying"></i> Show More');
+        }
+
+        $(".text").toggleClass("show-more-height");
+    });
+
+    $(window).on('load', function() {
+        var str = "";
+
+        if (str == "en") {
+
+            console.log('en');
+            $(".navbar-nav").css("justify-content", "space-evenly");
+            $("li.nav-item").css("margin-left", "-63px");
+        } else {
+            let videos = "";
+            if (videos = 'videos') {
+                // $(".nav-item").css("font-size", "1.2vw");
+            } else {
+                console.log('tm');
+                $(".nav-item").css("font-size", "0.9rem");
+                $(".nav-item").css("background-color", "blue");
+
+            }
+        }
+
+    });
+
+    // sticky header code 
+    /*
+    $(document).ready(function() {
+        $('#myModal').modal('show');
+    });*/
+</script>
+
+<style>
+    .ft_bld {
+        font-weight: bold;
+        color: #ffff00;
+        text-decoration-color: #ffff00;
+    }
+</style>
+
+
+
+
+<!-- testing userway script -->
+
+<!-- <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "FAQbEeKyhC");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+<script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "FAQbEeKyhC");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript> -->
+<script>
+    $(document).ready(function() {
+        var $link = $('.links li a');
+        $link.on('click', function(event) {
+            //event.preventDefault(); // stop normal link function (#)
+            $link.removeClass('menu-enable');
+            $(this).addClass('menu-enable');
+        });
+        $('.default').trigger('click');
+
+    });
+</script>
+
+
+</div><div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>
